@@ -75,6 +75,24 @@ pluralizelisttitles = false
     parent     = "section.spaces"
 
 [[menu.main]]
+    name       = "Electronics"
+    url        = ""
+    weight     = 5
+    parent     = "section.spaces"
+
+[[menu.main]]
+    name       = "VR studio"
+    url        = ""
+    weight     = 6
+    parent     = "section.spaces"
+
+[[menu.main]]
+    name       = "Film & Pod studio"
+    url        = ""
+    weight     = 7
+    parent     = "section.spaces"
+
+[[menu.main]]
     name       = "FAQ"
     identifier = "menu.faq"
     url        = "/faq/"
@@ -94,32 +112,32 @@ pluralizelisttitles = false
 
 [[menu.topbar]]
     weight = 1
-    name = "Phone"
-    url = "tel:+12 34 567 89 01"
-    pre = "<i class='fas fa-2x fa-phone'></i>"
-
-[[menu.topbar]]
-    weight = 2
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/ChalmersTRAX"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
-    weight = 3
+    weight = 2
     name = "Facebook"
-    url = "http://facebook.com"
+    url = "https://www.facebook.com/ChalmersTRAX"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
+    weight = 3
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/company/chalmers-t-rax/"
+    pre = "<i class='fab fa-2x fa-linkedin'></i>"
+
+[[menu.topbar]]
     weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
+    name = "Instagram"
+    url = "https://www.instagram.com/Chalmerstrax/"
+    pre = "<i class='fab fa-2x fa-instagram'></i>"
 
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "mailto:chalmerstrax@gmail.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
@@ -178,7 +196,6 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -234,8 +251,6 @@ pluralizelisttitles = false
     # For more information take a look at the README.
     enable = true
     auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
 
 [params.features]
     enable = true
@@ -243,30 +258,6 @@ pluralizelisttitles = false
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more information take a look at the README.
-
-[params.testimonials]
-    enable = true
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more information take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-
-[params.see_more]
-    enable = true
-    icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
-
-[params.clients]
-    enable = true
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more information take a look at the README.
-    title = "Our Clients"
-    subtitle = ""
 
 [taxonomies]
   category = "categories"

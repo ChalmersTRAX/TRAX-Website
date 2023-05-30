@@ -2,6 +2,11 @@
 title = "About us"
 +++
 
+# Board members
+
+
+
+
 # Contact information
 
 info@t-rax.se

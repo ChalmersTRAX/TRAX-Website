@@ -1,6 +1,7 @@
 /* Themed colors */
 :root {
-    --primary-accent: #01010175;
+    --primary-accent: #2b2b2bd6;
+    --icon-and-text-accent: #ffffff;
     --navbar-border-top: #fbf84a;
     --button-border: #336194;
     --link-focus: #2f5a89;
@@ -8,6 +9,16 @@
     --pagination-bg: #b8cee6;
     --link-hover-bg: #36669c;
     --navbar-focus: #92b3d9;
+  }
+
+  .feature-text {
+    font-size: larger;
+  }
+
+  /* Fontawesome fonts */
+  .fab, .fas, .far, .box-simple.icon {
+    color: var(--icon-and-text-accent);
+    border-color: var(--icon-and-text-accent);
   }
   
   .clearfix:before,
@@ -1449,8 +1460,8 @@
     margin-bottom: 40px;
   }
   .box-simple .icon {
-    color: var(--primary-accent);
-    border-color: var(--primary-accent);
+    color: var(--icon-and-text-accent);
+    border-color: var(--icon-and-text-accent);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -1771,10 +1782,11 @@
   }
   .bar.background-pentagon {
     
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)),
-                url('../img/banner.jpg') center center repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.311), rgba(255, 255, 255, 0.072)),
+                url('../img/logo.png') center center repeat;
     border-top: solid 1px #999999;
     border-bottom: solid 1px #999999;
+    background-size: 60%;
   }
   .bar.background-gray {
     background: #eeeeee;
@@ -1791,7 +1803,8 @@
     background-size: cover;
   }
   .bar.background-image-fixed-2 {
-    background: url('../img/logo.png') center top no-repeat;
+    background: linear-gradient(rgba(52, 52, 52, 0.8), rgba(10, 7, 7, 0.108)),
+                url('../img/banner.jpg') center center repeat;
     background-attachment: fixed;
     background-size: cover;
   }
@@ -2639,6 +2652,9 @@
       text-align: center;
       margin-bottom: 10px;
     }
+  }
+  #copyright a {
+    color: var(--icon-and-text-accent);
   }
   [data-animate] {
     opacity: 0;
