@@ -1,0 +1,38 @@
+year: "2022/2023"
+roles_version: definition_v1
+member:
+  - 
+    weight: 1
+    role: "Chairman"
+    name: "David Hanås"
+    image: "img/board/members/22_23/david_hanas.jpg"
+  - 
+    weight: 2
+    role: "Cashier"
+    name: "Gustaf Ivarsson"
+    image: "img/board/members/22_23/gustaf_ivarsson.jpg"
+  - 
+    weight: 3
+    role: "Inventory"
+    name: "Sebastian Zamola"
+    image: "img/board/members/22_23/sebastian_zamola.jpg"
+  - 
+    weight: 4
+    role: "Event"
+    name: "Jim Boström"
+    image: "img/board/members/22_23/jim_bostrom.jpg"
+  - 
+    weight: 5
+    role: "IT"
+    name: "André Stadelmann"
+    image: "img/board/members/22_23/andre_stadelmann.jpg"
+  - 
+    weight: 6
+    role: "PR"
+    name: "Johanna Odbratt"
+    image: "img/board/members/22_23/johanna_odbratt.jpg"
+  - 
+    weight: 7
+    role: "Education & Safety"
+    name: "Sally Ivarsson"
+    image: "img/board/members/22_23/sally_ivarsson.jpg"

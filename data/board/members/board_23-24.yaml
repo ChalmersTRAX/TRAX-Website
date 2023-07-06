@@ -1,0 +1,48 @@
+year: "2023/2024"
+roles_version: definition_v1
+member:
+  - 
+    weight: 1
+    role: "Chairman"
+    name: "Philip Skogsberg"
+    image: "img/placeholder.png"
+  - 
+    weight: 2
+    role: "Cashier"
+    name: "Gustaf Ivarsson"
+    image: "img/placeholder.png"
+  - 
+    weight: 3
+    role: "Inventory"
+    name: "Petter Hemå"
+    image: "img/placeholder.png"
+  - 
+    weight: 4
+    role: "Event"
+    name: "David Strålman"
+    image: "img/placeholder.png"
+  - 
+    weight: 5
+    role: "IT"
+    name: "Karl Strålman"
+    image: "img/placeholder.png"
+  - 
+    weight: 6
+    role: "PR"
+    name: "Louise Granquist Karlsson"
+    image: "img/placeholder.png"
+  - 
+    weight: 7
+    role: "Education & Safety"
+    name: "Marcus Börne"
+    image: "img/placeholder.png"
+  - 
+    weight: 7
+    role: "Secretary"
+    name: "Ida Udd"
+    image: "img/placeholder.png"
+  - 
+    weight: 8
+    role: "Marketing"
+    name: "Johanna Odbratt"
+    image: "img/placeholder.png"
