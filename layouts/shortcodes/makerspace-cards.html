@@ -1,0 +1,54 @@
+{{ $elements := default 3 .Site.Params.makerspace.cols }}
+{{ $makerspaces := sort .Site.Data.makerspace "weight" }}
+{{ $total_rows := div (len $makerspaces) $elements }}
+
+<div class="text-center">
+  <h1 class="fw-bold text-body-emphasis">Overview</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+      In FUSE lab there are several different Makerspaces to use.
+      Here is an overview of all the spaces available to members.
+      Not already a member?
+    </p>
+  </div>
+</div>
+
+{{ range $i, $sequence := seq $total_rows }}
+<div class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}">
+  {{ range $j, $sequence2 := (seq $elements) }}
+
+  {{ $makerspace_index := add (mul $i $elements) $j }}
+  {{ if lt $makerspace_index (len $makerspaces) }}
+  {{ $element := index $makerspaces $makerspace_index }}
+
+  <div
+    class="d-flex justify-content-center col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+    <div class="card box-simple" style="width: 18rem;">
+      {{ if $element.small_img }}
+      <img class="card-img-top" src="{{ $element.small_img | absURL}}">
+      {{ else }}
+      <img class="card-img-top" src="/img/placeholder.png">
+      {{ end }}
+      <div class="card-body">
+        <h5 class="card-title">{{ $element.name }}</h5>
+        <p class="card-text">{{ $element.description }}</p>
+        <a href="#" class="btn btn-primary">Go to makerspace</a>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}
+<div class="text-center">
+  <h1 class="fw-bold text-body-emphasis">Not a member?</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+      To get access to a makerspace you must first become a member.
+    </p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Become a member</button>
+    </div>
+  </div>
+</div>
+<br>

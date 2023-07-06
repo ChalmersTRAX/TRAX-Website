@@ -1,0 +1,4 @@
+weight: 5
+name: "Electronics lab"
+description: "Electronics lab descriptive text"
+hasCourse: true
