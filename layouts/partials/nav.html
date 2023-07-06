@@ -56,7 +56,7 @@
                                 {{ if .HasChildren }}
                                 {{ range .Children.ByWeight }}
                                 <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
-                                {{- end }}
+                                {{ end }}
                                 {{ end }}
                                 {{ end }}
                             {{ end }}
