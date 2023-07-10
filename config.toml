@@ -58,7 +58,7 @@ pluralizelisttitles = false
     name       = "The Board"
     parent     = "menu.about"
     identifier = "menu.the-board"
-    url        = "/the-board"
+    url        = "/about/the-board"
     weight     = 1
 
 [[menu.main]]
