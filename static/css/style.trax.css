@@ -1,7 +1,7 @@
 /* Themed colors */
 :root {
     --primary-accent: #808080d6;
-    --icon-and-text-accent: #000000;
+    --icon-and-text-accent: #555555;
     --button-border: #336194;
     --link-focus: #2f5a89;
     --form-shadow: rgba(101, 10, 10, 0.5);
@@ -9,16 +9,26 @@
     --link-hover-bg: #36669c;
     --navbar-focus: #92b3d9;
 
+    --icon-footer: #ffffff;
     --t-rax-yellow: #f1d462;
   }
 
   .feature-text {
     font-size: larger;
-    color: --icon-and-text-accent;
+    color: var(--icon-and-text-accent);
+  }
+
+  footer > div > section > div > div > h5 {
+    color: var(--icon-footer);
   }
 
   /* Fontawesome fonts */
-  .fab, .fas, .far, .box-simple.icon {
+  footer > div > section > a > .fab,
+  footer > div > section > a > .fas {
+    color: var(--icon-footer);
+    border-color: var(--icon-footer);
+  }
+  .fa-solid, .fab, .fas, .far, .box-simple.icon {
     color: var(--icon-and-text-accent);
     border-color: var(--icon-and-text-accent);
   }
@@ -215,7 +225,7 @@
     letter-spacing: 0.08em;
   }
   .pages-listing .item h3 a {
-    color: #555555;
+    color: var(--icon-and-text-accent);
   }
   .pages-listing .item .text {
     margin-bottom: 20px;
@@ -266,7 +276,7 @@
     }
   }
   #top {
-    background: #555555;
+    background: var(--icon-and-text-accent);
     color: #eeeeee;
     padding: 10px 0;
   }
@@ -332,7 +342,7 @@
     border-bottom: solid 1px #eeeeee;
   }
   #top.light .login a {
-    color: #555555;
+    color: var(--icon-and-text-accent);
   }
   .navbar {
     border: none;
@@ -364,7 +374,7 @@
   .navbar.navbar-light ul.nav > li.active > a {
     border-top: solid 5px var(--t-rax-yellow);
     background: #fff !important;
-    color: #555555 !important;
+    color: var(--icon-and-text-accent) !important;
   }
   .navbar.navbar-light ul.nav > li.active > a:hover {
     border-top: solid 5px var(--t-rax-yellow);
@@ -375,7 +385,7 @@
   .navbar.navbar-light ul.nav > li.open > a:focus {
     border-top: solid 5px var(--primary-accent);
     background: #fff !important;
-    color: #555555 !important;
+    color: var(--icon-and-text-accent) !important;
   }
   .navbar ul.dropdown-menu {
     margin: 0;
@@ -820,7 +830,7 @@
     height: 100%;
     position: relative;
   }
-  .jumbotron {
+  #top-jumbo {
     margin-bottom: 0;
     position: relative;
     background: url('../img/t-rax-cortege-min.jpg') center center repeat;
@@ -1378,9 +1388,9 @@
   .box-simple h3 a {
     color: #555555;
   }
-  .box-simple p {
+  /* .box-simple p {
     color: #999999;
-  }
+  } */
   .box-simple:hover .icon {
     -webkit-transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
@@ -2440,7 +2450,7 @@
   #get-it p {
     margin: 0 0 20px;
   }
-  #footer {
+  .about-footer {
     /* background: #f1d462; */
     background: url('../img/banner.jpg') center center repeat;
     padding: 50px 0;

@@ -2,7 +2,7 @@
 {{ if isset .Site.Data "carousel" }}
 {{ if gt (len .Site.Data.carousel) 0 }}
 <section class="no-mb">
-    <div class="jumbotron ">
+    <div class="jumbotron" id="top-jumbo">
         <div class="dark-mask">
             {{ range sort .Site.Data.carousel "weight" }}
             <div class="container">
