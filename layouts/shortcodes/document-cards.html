@@ -1,0 +1,38 @@
+{{ range $docs := sort .Site.Data.docs "weight" }}
+{{ $docs_members := sort $docs.list "date" }}
+{{ $docs_member_len := len $docs }}
+{{ $elements :=  3 }}
+<div class="text-center">
+    <h1 class="fw-bold text-body-emphasis">{{ $docs.name }}</h1>
+</div>
+
+{{ range $i, $sequence := seq $docs_member_len }}
+<div class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}">
+  {{ range $j, $sequence2 := (seq $elements) }}
+
+  {{ $docs_member_index := add (mul $i $elements) $j }}
+  {{ if lt $docs_member_index (len $docs_members) }}
+  {{ $docs_member := index $docs_members $docs_member_index }}
+
+  <div
+    class="d-flex justify-content-center col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+    <div class="card box-simple" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{ $docs_member.name }} [{{ $docs_member.language }}]</h5>
+        <p class="card-subtitle">{{ $docs_member.date }}</p>
+        {{ with $docs_member.url }}
+        
+        <a href="{{ $docs_member.url }}">
+            <i class="fa-sharp fa-regular fa-file-pdf" alt="Document icon"></i>
+            Download
+        </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+</div>  
+{{ end }}
+<br>
+{{ end }}

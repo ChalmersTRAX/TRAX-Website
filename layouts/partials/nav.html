@@ -45,8 +45,8 @@
                 {{ if .HasChildren }}
                   <!-- Check if the first child marks a menu section identifier -->
                   {{ $hasSections := (hasPrefix (index .Children 0).Identifier "section.") }}
-                  <li class="dropdown{{ if $hasSections }} use-yamm {{end}} {{ $active }}">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+                  <li class="dropdown {{ $active }}" data-bs-theme="dark">
+                      <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
                       {{ if $hasSections }}
                       <div class="dropdown-menu">
                             {{ range .Children.ByWeight }}

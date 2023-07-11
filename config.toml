@@ -72,7 +72,7 @@ pluralizelisttitles = false
     name       = "Rules"
     parent     = "menu.about"
     identifier = "menu.rules"
-    url        = "/rules"
+    url        = "/about/rules"
     weight     = 3
 
 [[menu.main]]

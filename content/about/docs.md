@@ -1,3 +1,5 @@
 +++
 title = "Documents"
 +++
+
+{{< document-cards >}}

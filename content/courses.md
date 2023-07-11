@@ -3,6 +3,4 @@ title = "Courses"
 description = "Courses or something.."
 +++
 
-# Courses
-
-TODO
+{{< under-construction >}}
