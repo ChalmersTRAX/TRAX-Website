@@ -1,4 +1,5 @@
 weight: 5
 name: "Electronics lab"
 description: "Electronics lab descriptive text"
+url: "/makerspace/electronics"
 hasCourse: true

@@ -1,4 +1,5 @@
 weight: 3
 name: "Textile workshop"
 description: "Textile workshop descriptive text"
+url: "/makerspace/textile"
 hasCourse: true

@@ -3,22 +3,21 @@
 {{ if gt (len .Site.Data.carousel) 0 }}
 <section class="no-mb">
     <div class="jumbotron ">
-            <div class="dark-mask">
+        <div class="dark-mask">
             {{ range sort .Site.Data.carousel "weight" }}
-                <div class="container">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-sm-5">
-                            <h1>{{ .title | safeHTML }}</h1>
-                            {{ .description | safeHTML }}
-                        </div>
-                        <div class="col-sm-5">
-                            <img class="img-fluid mx-auto d-block" src="{{ .image }}" alt="">
-                        </div>
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-5">
+                        <h1>{{ .title | safeHTML }}</h1>
+                        {{ .description | safeHTML }}
+                    </div>
+                    <div class="col-sm-5">
+                        <img class="img-fluid mx-auto d-block" src="{{ .image }}" alt="">
                     </div>
                 </div>
             </div>
-            {{ end }}
-       
+        </div>
+        {{ end }}
     </div>
 </section>
 {{ end }}

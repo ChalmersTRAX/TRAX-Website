@@ -1,4 +1,5 @@
 weight: 6
 name: "VR studio"
 description: "VR studio descriptive text"
+url: "/makerspace/vr"
 hasCourse: false

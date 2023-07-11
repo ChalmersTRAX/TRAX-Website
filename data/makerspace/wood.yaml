@@ -1,4 +1,5 @@
 weight: 4
 name: "Wood workshop"
 description: "Wood workshop descriptive text"
+url: "/makerspace/wood"
 hasCourse: true
