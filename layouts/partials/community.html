@@ -1,0 +1,27 @@
+{{ if default true .Site.Params.CarouselHomepage.enable }}
+{{ if isset .Site.Data "carousel" }}
+{{ if gt (len .Site.Data.carousel) 0 }}
+<section class="no-mb">
+    <div class="jumbotron" id="bottom-jumbo">
+        <div class="dark-mask">
+            {{ range sort .Site.Data.carousel "weight" }}
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-5">
+                        <h1>Meet the board</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sociis natoque penatibus et magnis dis parturient montes. Aliquam ut porttitor leo a. Tortor vitae purus faucibus ornare suspendisse sed. Vel fringilla est ullamcorper eget. Sagittis vitae et leo duis ut diam quam nulla. Odio morbi quis commodo odio aenean. Id neque aliquam vestibulum morbi blandit. Semper feugiat nibh sed pulvinar proin gravida. Consectetur adipiscing elit ut aliquam purus sit amet. Id ornare arcu odio ut sem nulla pharetra. Auctor elit sed vulputate mi. In ornare quam viverra orci sagittis eu. Tincidunt augue interdum velit euismod in pellentesque massa. Fermentum odio eu feugiat pretium nibh.
+
+                            Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Lacus vestibulum sed arcu non odio. Urna neque viverra justo nec. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Nunc faucibus a pellentesque sit. Quis risus sed vulputate odio ut enim blandit volutpat maecenas. Nam aliquam sem et tortor consequat id porta. Pellentesque id nibh tortor id aliquet lectus. Et ligula ullamcorper malesuada proin. Vulputate mi sit amet mauris commodo quis imperdiet.</p>
+                     </div>
+                    <!-- <div class="col-sm-5">
+                        <img class="img-fluid mx-auto d-block" src="{{ .image }}" alt="">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

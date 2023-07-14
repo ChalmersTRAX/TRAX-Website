@@ -833,6 +833,15 @@
   #top-jumbo {
     margin-bottom: 0;
     position: relative;
+    background: url('../img/corridor_banner.jpg') center center repeat;
+    background-size: cover;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  #bottom-jumbo {
+    margin-bottom: 0;
+    position: relative;
     background: url('../img/t-rax-cortege-min.jpg') center center repeat;
     background-size: cover;
     -webkit-transition: all 0.2s ease-out;
