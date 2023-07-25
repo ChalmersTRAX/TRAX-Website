@@ -1,6 +1,7 @@
-{{ $elements := default 4 .Site.Params.makerspace.cols }}
 {{ $makerspaces := sort .Site.Data.makerspace "weight" }}
+{{ $elements := (len $makerspaces) }}
 {{ $total_rows := div (len $makerspaces) $elements }}
+{{ $cards_per_row := default 3 $.Site.Params.makerspace.cards_per_row }}
 
 <div class="text-center">
   <h1 class="fw-bold text-body-emphasis">Overview</h1>
@@ -21,10 +22,10 @@
   {{ $element := index $makerspaces $makerspace_index }}
 
   <div
-    class="d-flex justify-content-center col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
-    <div class="card box-simple" style="width: 18rem;">
-      {{ if $element.small_img }}
-      <img class="card-img-top card-img-size" src="{{ $element.small_img | absURL}}">
+    class="d-flex justify-content-center col-md-{{ div 12 $cards_per_row }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+    <div class="card box-simple" style="width: 35rem;">
+      {{ if $element.thumbnail_url }}
+      <img class="card-img-top card-img-size" src="{{ $element.thumbnail_url | absURL}}">
       {{ else }}
       <img class="card-img-top card-img-size" src="/img/placeholder.png">
       {{ end }}

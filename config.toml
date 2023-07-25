@@ -137,8 +137,6 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
@@ -149,16 +147,14 @@ pluralizelisttitles = false
 
     logo = "img/logo.png"
     # logo_small = "img/logo-small.png"
-    contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
+
+[params.makerspace]
+    # Control how many cards per row to display
+    cards_per_row = 4
+
+[params.docs]
+    # Control how many cards per row to display
+    cards_per_row = 1
 
 [params.carouselCustomers]
     items = 6

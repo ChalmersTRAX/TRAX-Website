@@ -1,7 +1,9 @@
 {{ range $docs := sort .Site.Data.docs "weight" }}
 {{ $docs_members := sort $docs.list "date" }}
 {{ $docs_member_len := len $docs }}
-{{ $elements :=  3 }}
+{{ $elements :=  len $docs_members }}
+{{ $cards_per_row := default 3 $.Site.Params.docs.cards_per_row }}
+
 <div class="text-center">
     <h1 class="fw-bold text-body-emphasis">{{ $docs.name }}</h1>
 </div>
@@ -15,8 +17,8 @@
   {{ $docs_member := index $docs_members $docs_member_index }}
 
   <div
-    class="d-flex justify-content-center col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
-    <div class="card box-simple" style="width: 18rem;">
+    class="d-flex justify-content-center col-md-{{ div 12 $cards_per_row }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+    <div class="card box-simple" style="width: 20rem;">
       <div class="card-body">
         <h5 class="card-title">{{ $docs_member.name }} [{{ $docs_member.language }}]</h5>
         <p class="card-subtitle">{{ $docs_member.date }}</p>

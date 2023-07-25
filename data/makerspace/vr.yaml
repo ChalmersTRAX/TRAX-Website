@@ -3,5 +3,5 @@ name: "VR studio"
 description: "VR studio descriptive text"
 url: "/makerspace/vr"
 # temp image by Achin bm from Pixabay
-small_img: "/img/makerspace/vr-g28c418f50_640.png"
+thumbnail_url: "/img/makerspace/thumbnails/vr.png"
 hasCourse: false

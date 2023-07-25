@@ -1,6 +1,6 @@
 weight: 2
 name: "Rapid prototyping"
 description: "Lab for rapid prototyping descriptive text"
-small_img: "img/makerspace/original-prusa-i3-mk3s-3d-printer.jpeg"
+thumbnail_url: "img/makerspace/thumbnails/rapid.jpg"
 url: "/makerspace/rapid"
 hasCourse: true

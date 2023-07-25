@@ -2,4 +2,5 @@ weight: 3
 name: "Textile workshop"
 description: "Textile workshop descriptive text"
 url: "/makerspace/textile"
+thumbnail_url: "img/makerspace/thumbnails/textile.jpg"
 hasCourse: true
