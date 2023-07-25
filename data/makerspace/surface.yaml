@@ -1,0 +1,5 @@
+weight: 7
+name: "Surface treatment"
+description: "Surface treatment stuff"
+url: "/makerspace/surface"
+hasCourse: true

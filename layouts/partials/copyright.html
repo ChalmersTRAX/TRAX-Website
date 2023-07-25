@@ -5,8 +5,8 @@
     <!-- Section: Social media -->
     <section class="mb-4">
 
-      {{ range .Site.Menus.topbar.ByWeight }}
-      <a class="btn rounded-circle" href="{{ .URL | safeURL }}" role="button">{{ .Pre }}</a>
+      {{ range $social := sort .Site.Data.footer.social "weight" }}
+      <a class="btn rounded-circle" href="{{ $social.url | safeURL }}" role="button"><i class="{{ $social.pre }}"></i></a>
       <!-- <a href="{{ .URL | safeURL }}" target="_blank" style="opacity: 1;">{{ .Pre }}</a> -->
       {{ end }}
 
@@ -18,88 +18,45 @@
       <!--Grid row-->
       <div class="row">
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
+        <div class="col mb-4 mb-md-0">
+          <h5 class="text-uppercase">Useful links</h5>
           <ul class="list-unstyled mb-0">
+          {{ range $link := sort .Site.Data.footer.links "weight" }}
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="{{ $link.url }}" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">{{ $link.desc }}</a>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
+          {{ end }}
           </ul>
         </div>
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+        <div class="col mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contact us</h5>
 
           <ul class="list-unstyled mb-0">
+            {{ range $link := sort .Site.Data.footer.contact_us "weight" }}
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="{{ $link.title }}" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">{{ $link.title }}</a>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
+            {{ end }}
           </ul>
         </div>
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+        <div class="col mb-4 mb-md-0">
+          <h5 class="text-uppercase">Find us</h5>
 
           <ul class="list-unstyled mb-0">
+            {{ range $link := sort .Site.Data.footer.find_us "weight" }}
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <p class="text-white">{{ $link.title }}</p>
+              <p class="text-secondary">{{ $link.desc }}</p>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
+            {{ end }}
           </ul>
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
       </div>
       <!--Grid row-->
     </section>
@@ -109,8 +66,8 @@
 
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2023 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">T-RAX Chalmers</a>
+    © {{ dateFormat "2006" now }} Copyright:
+    <a class="text-white">T-RAX Chalmers</a>
   </div>
   <!-- Copyright -->
 </footer>

@@ -1,0 +1,19 @@
+- 
+  weight: 1
+  desc: "Become a member"
+  url: "/membership/"
+
+-
+  weight: 2
+  desc: "Documents"
+  url: "/about/docs/"
+
+-
+  weight: 3
+  desc: "Makespaces"
+  url: "/makerspace/"
+
+-
+  weight: 4
+  desc: "Github"
+  url: "https://github.com/ChalmersTRAX"
