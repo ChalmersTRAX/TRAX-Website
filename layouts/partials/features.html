@@ -1,5 +1,4 @@
 {{ if isset .Site.Params "features" }}
-{{ if .Site.Params.features.enable }}
 {{ if isset .Site.Data "features" }}
 {{ if gt (len .Site.Data.features) 0 }}
 <section class="bar background-image-fixed-2 no-mb text-center">
@@ -43,7 +42,6 @@
         {{ end }}
     </div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}
 {{ end }}

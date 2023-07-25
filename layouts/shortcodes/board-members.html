@@ -16,7 +16,7 @@
 
   <div
     class="d-flex justify-content-center col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
-    <div class="card box-simple" style="width: 18rem;">
+    <div class="board-member-card card box-simple" style="width: 18rem;">
       {{ if $board_member.image }}
       <img class="card-img-top" src="{{ $board_member.image | absURL}}">
       {{ else }}
