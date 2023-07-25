@@ -5,3 +5,5 @@
 # auction catalogue files
 /assets/auction/
 /content/auction/auctionItems.csv
+
+.hugo_build.lock
