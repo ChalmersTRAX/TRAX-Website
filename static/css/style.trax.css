@@ -12,13 +12,6 @@
     
     --icon-footer: #ffffff;
     --t-rax-yellow: #f1d462;
-
-    /* Core colors 
-     * from https://m3.material.io/theme-builder
-     */
-    --core-primary: var(--t-rax-yellow);
-    --core-secondary: #9b906f;
-    --core-neutral: #949088;
   }
 
   /* Board member custom */
