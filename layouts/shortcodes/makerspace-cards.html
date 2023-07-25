@@ -1,4 +1,4 @@
-{{ $elements := default 3 .Site.Params.makerspace.cols }}
+{{ $elements := default 4 .Site.Params.makerspace.cols }}
 {{ $makerspaces := sort .Site.Data.makerspace "weight" }}
 {{ $total_rows := div (len $makerspaces) $elements }}
 
@@ -24,9 +24,9 @@
     class="d-flex justify-content-center col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
     <div class="card box-simple" style="width: 18rem;">
       {{ if $element.small_img }}
-      <img class="card-img-top" src="{{ $element.small_img | absURL}}">
+      <img class="card-img-top card-img-size" src="{{ $element.small_img | absURL}}">
       {{ else }}
-      <img class="card-img-top" src="/img/placeholder.png">
+      <img class="card-img-top card-img-size" src="/img/placeholder.png">
       {{ end }}
       <div class="card-body">
         <h5 class="card-title">{{ $element.name }}</h5>
