@@ -22,7 +22,7 @@
   {{ $element := index $makerspaces $makerspace_index }}
 
   <div
-    class="p-3 d-flex justify-content-center col-md-{{ div 12 $cards_per_row }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+    class="p-3 d-flex justify-content-center col-md-{{ div 12 $cards_per_row }}">
     <div class="card box-simple" style="width: 35rem;">
       {{ if $element.thumbnail_url }}
       <img class="card-img-top card-img-size" src="{{ $element.thumbnail_url | absURL}}">
