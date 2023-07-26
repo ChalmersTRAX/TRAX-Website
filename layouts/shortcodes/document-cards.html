@@ -17,7 +17,7 @@
   {{ $docs_member := index $docs_members $docs_member_index }}
 
   <div
-    class="d-flex justify-content-center col-md-{{ div 12 $cards_per_row }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+    class="p-3 d-flex justify-content-center col-md-{{ div 12 $cards_per_row }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
     <div class="card box-simple" style="width: 20rem;">
       <div class="card-body">
         <h5 class="card-title">{{ $docs_member.name }} [{{ $docs_member.language }}]</h5>

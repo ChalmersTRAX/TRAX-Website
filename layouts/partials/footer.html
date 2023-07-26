@@ -1,72 +1,74 @@
-<div class="jumbotron">
-    <div class="dark-mask">
-        <div class="container about-footer">
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
 
-            {{ if isset .Site.Params "about_us" }}
-            <div class="col-md-4 col-sm-6">
-                <h4>{{ i18n "aboutUs" }}</h4>
+      {{ range $social := sort .Site.Data.footer.social "weight" }}
+      <a class="btn rounded-circle" href="{{ $social.url | safeURL }}" role="button"><i class="{{ $social.pre }}"></i></a>
+      <!-- <a href="{{ .URL | safeURL }}" target="_blank" style="opacity: 1;">{{ .Pre }}</a> -->
+      {{ end }}
 
-                {{ .Site.Params.about_us | safeHTML }}
+    </section>
+    <!-- Section: Social media -->
 
-                <hr class="hidden-md hidden-lg hidden-sm">
-
-            </div>
-            <!-- /.col-md-4 -->
-            {{ end }}
-
-            <div class="col-md-4 col-sm-6">
-
-                {{ if isset .Site.Params "recent_posts" }}{{ if (default true .Site.Params.footer.recent_posts.enable)
-                }}
-                <h4>{{ i18n "recentPosts" }}</h4>
-
-                <div class="blog-entries">
-                    {{ range first 3 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-                    <div class="item same-height-row clearfix">
-                        <div class="image same-height-always">
-                            <a href="{{ .Permalink }}">
-                                {{ if isset .Params "banner" }}
-                                <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="{{ .Title }}">
-                                {{ else }}
-                                <img src="{{ " img/placeholder.png" | relURL }}" class="img-responsive"
-                                    alt="{{ .Title }}">
-                                {{ end }}
-                            </a>
-                        </div>
-                        <div class="name same-height-always">
-                            <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-                        </div>
-                    </div>
-                    {{ end }}
-                </div>
-
-                <hr class="hidden-md hidden-lg">
-                {{ end }}{{ end }}
-
-            </div>
-            <!-- /.col-md-4 -->
-
-            {{ if isset .Site.Params "address" }}
-            <div class="col-md-4 col-sm-6">
-
-                <h4>{{ i18n "contactTitle" }}</h4>
-
-                {{ .Site.Params.address | safeHTML }}
-
-                <a href="{{ default " /contact" .Site.Params.contact_url }}" class="btn btn-small btn-template-main">{{
-                    i18n "contactGoTo" }}</a>
-
-                <hr class="hidden-md hidden-lg hidden-sm">
-
-            </div>
-            <!-- /.col-md-4 -->
-            {{ end }}
-
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col mb-4 mb-md-0">
+          <h5 class="text-uppercase">Useful links</h5>
+          <ul class="list-unstyled mb-0">
+          {{ range $link := sort .Site.Data.footer.links "weight" }}
+            <li>
+              <a href="{{ $link.url }}" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">{{ $link.desc }}</a>
+            </li>
+          {{ end }}
+          </ul>
         </div>
-        <!-- /.container -->
-    </div>
-</div>
+        <!--Grid column-->
 
-<!-- /#footer -->
+        <!--Grid column-->
+        <div class="col mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contact us</h5>
 
-<!-- *** FOOTER END *** -->
+          <ul class="list-unstyled mb-0">
+            {{ range $link := sort .Site.Data.footer.contact_us "weight" }}
+            <li>
+              <a href="{{ $link.title }}" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">{{ $link.title }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col mb-4 mb-md-0">
+          <h5 class="text-uppercase">Find us</h5>
+
+          <ul class="list-unstyled mb-0">
+            {{ range $link := sort .Site.Data.footer.find_us "weight" }}
+            <li>
+              <p class="text-white">{{ $link.title }}</p>
+              {{ $link.desc | markdownify }}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 background">
+    © {{ dateFormat "2006" now }} Copyright:
+    <a class="text-white">T-RAX Chalmers</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->

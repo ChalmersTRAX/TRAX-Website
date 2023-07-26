@@ -22,7 +22,7 @@
   {{ $element := index $makerspaces $makerspace_index }}
 
   <div
-    class="d-flex justify-content-center col-md-{{ div 12 $cards_per_row }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+    class="p-3 d-flex justify-content-center col-md-{{ div 12 $cards_per_row }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
     <div class="card box-simple" style="width: 35rem;">
       {{ if $element.thumbnail_url }}
       <img class="card-img-top card-img-size" src="{{ $element.thumbnail_url | absURL}}">
@@ -34,7 +34,7 @@
         <p class="card-text">{{ $element.description }}</p>
         
         {{ with $element.url }}
-        <a href="{{ $element.url }}" class="btn btn-primary">Go to makerspace</a>
+        <a href="{{ $element.url }}" class="btn btn-m3-tertiary d-flex justify-content-center">Go to makerspace</a>
         {{ end }}
       </div>
     </div>
@@ -50,7 +50,7 @@
       To get access to a makerspace you must first become a member.
     </p>
     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-      <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Become a member</button>
+      <button type="button" class="btn btn-m3-tertiary  btn-lg px-4 gap-3">Become a member</button>
     </div>
   </div>
 </div>

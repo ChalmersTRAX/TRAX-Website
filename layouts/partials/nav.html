@@ -6,20 +6,9 @@
       {{ else }}
       <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Title }}" class="hidden-xs hidden-sm" />
       {{ end }}
-
-
-      <!--<span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>-->
     </a>
-    <!--<h4>T-RAX Chalmers makerspace</h4>-->
-    <!-- <div class="navbar-buttons">
-                  <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                    <span class="sr-only">{{ i18n "navToggle" }}</span>
-                      <i class="fas fa-align-justify"></i>
-                  </button>
-              </div> -->
-
-    <div class="navbar-collapse collapse navbar-light " id="navigation">
-      <ul class="nav navbar-nav">
+    <div class="navbar-collapse collapse" id="navigation">
+      <ul class="nav navbar-nav ms-auto">
         {{ $current := . }}
 
         {{ range .Site.Menus.main.ByWeight }}
@@ -46,15 +35,15 @@
         {{ if .HasChildren }}
         <!-- Check if the first child marks a menu section identifier -->
         {{ $hasSections := (hasPrefix (index .Children 0).Identifier "section.") }}
-        <li class="nav-item dropdown {{ $active }}" data-bs-theme="dark">
-          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true"
+        <li class="px-2 nav-item dropdown {{ $active }}" data-bs-theme="dark">
+          <a href="#" class="nav-link dropdown-toggle title-medium text-uppercase" data-bs-toggle="dropdown" role="button" aria-haspopup="true"
             aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
           {{ if $hasSections }}
           <div class="dropdown-menu">
             {{ range .Children.ByWeight }}
             {{ $column := printf "%s" .Post }}
             {{ if eq $column "1" }}
-            <h5>{{ .Name }}</h5>
+            <h5 class="title-large text-uppercase">{{ .Name }}</h5>
             {{ if .HasChildren }}
             {{ range .Children.ByWeight }}
             <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
@@ -64,32 +53,20 @@
             {{ end }}
           </div>
           {{ else }}
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown-menu-dark">
             {{ range .Children.ByWeight }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            <li><a class="dropdown-item text-uppercase p-3" href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
           {{ end }}
         </li>
         {{ else }}
-        <li class="nav-item {{ $active }}">
+        <li class="px-2 nav-item title-medium primary-text text-uppercase {{ $active }}">
           <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
         </li>
         {{ end }}
         {{ end }}
       </ul>
-    </div>
-    <!--/.nav-collapse -->
-
-    <div class="collapse clearfix" id="search">
-      <form class="navbar-form" role="search">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search">
-          <span class="input-group-btn">
-            <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
-          </span>
-        </div>
-      </form>
     </div>
     <!--/.nav-collapse -->
   </div>
