@@ -1,7 +1,7 @@
 -
   title: "Opening hours"
-  desc: "Wednesday 17:00 - 18:00"
+  desc: "<p class=\"text-secondary\">Wednesday 17:00 - 18:00</p>"
 
 -
   title: "Address"
-  desc: "Sven Hultins gata 8, 41258 Göteborg"
+  desc: "<p class=\"text-secondary\">Sven Hultins gata 8<br>41258 Göteborg</p>"

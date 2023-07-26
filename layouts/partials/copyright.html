@@ -52,7 +52,7 @@
             {{ range $link := sort .Site.Data.footer.find_us "weight" }}
             <li>
               <p class="text-white">{{ $link.title }}</p>
-              <p class="text-secondary">{{ $link.desc }}</p>
+              {{ $link.desc | markdownify }}
             </li>
             {{ end }}
           </ul>

@@ -118,3 +118,9 @@ pluralizelisttitles = false
 
 [params.features]
     cols = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
