@@ -10,20 +10,20 @@
     {{ $step := index $steps $step_index }}
     <div class="p-3 d-flex justify-content-center col-md-{{ div 12 1 }}">
         {{ if eq (mod $j 2) 0 }}
+            <div class="p-3 col-md-1 my-auto">
+                <img class="img-fluid d-block" src="{{ $step.icon_url | absURL }}" alt="">
+            </div>
             <div class="p-3 col-md-5">
                 <h5 class="card-title">{{ $step.title }}</h5>
                 <p class="card-text">{{ $step.description }}</p>
-            </div>
-            <div class="p-3 col-md-1 my-auto">
-                <img class="img-fluid d-block" src="{{ $step.icon_url | absURL }}" alt="">
             </div>
         {{ else }}
-            <div class="p-3 col-md-1 my-auto">
-                <img class="img-fluid d-block" src="{{ $step.icon_url | absURL }}" alt="">
-            </div>
             <div class="p-3 col-md-5">
                 <h5 class="card-title">{{ $step.title }}</h5>
                 <p class="card-text">{{ $step.description }}</p>
+            </div>
+            <div class="p-3 col-md-1 my-auto">
+                <img class="img-fluid d-block" src="{{ $step.icon_url | absURL }}" alt="">
             </div>
         {{ end }} 
     </div>
