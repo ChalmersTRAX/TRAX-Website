@@ -2,4 +2,4 @@
 title = "Become a member"
 +++
 
-{{< under-construction >}}
+{{< become-member >}}
