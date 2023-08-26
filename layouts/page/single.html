@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html class="h-100" lang="{{ .Site.LanguageCode }}">
 
   <head>
     {{ partial "headers.html" . }}
   </head>
 
-  <body>
+  <body class="d-flex flex-column h-100">
 
-    <div id="all">
+    <main class="flex-shrink-0">
 
         {{ partial "nav.html" . }}
 
@@ -41,11 +41,9 @@
             {{ end }}
         </div>
         <!-- /#content -->
+      </main>
 
-        {{ partial "footer.html" . }}
-
-    </div>
-    <!-- /#all -->
+    {{ partial "footer.html" . }}
 
     {{ partial "scripts.html" . }}
 
