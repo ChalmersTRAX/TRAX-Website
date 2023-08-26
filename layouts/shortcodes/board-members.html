@@ -18,7 +18,10 @@
     class="p-3 d-flex justify-content-center col-md-{{ div 12 $elements }}">
     <div class="board-member-card card box-simple" style="width: 18rem;">
       {{ if $board_member.image }}
-      <img class="card-img-top" src="{{ $board_member.image | absURL }}">
+      <img class="card-img-top {{ if $board_member.secret_image }} secret-image-parent {{ end }}" src="{{ $board_member.image | absURL }}">
+      {{ if $board_member.secret_image }}
+      <img class="card-img-top secret-image" src="{{ $board_member.secret_image | absURL }}" loading="eager">
+      {{ end }}
       {{ else }}
       <img class="card-img-top" src="/img/placeholder.png">
       {{ end }}

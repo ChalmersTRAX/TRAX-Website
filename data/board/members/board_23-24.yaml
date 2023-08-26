@@ -21,11 +21,13 @@ member:
     role: "Event"
     name: "David Strålman"
     image: "img/board/members/23_24/david_strålman.jpg"
+    secret_image: "img/board/members/23_24/david_strålman_fixed.jpg"
   - 
     weight: 5
     role: "IT"
     name: "Karl Strålman"
     image: "img/board/members/23_24/karl_strålman.jpg"
+    secret_image: "img/board/members/23_24/karl_strålman_fixed.jpg"
   - 
     weight: 6
     role: "PR"

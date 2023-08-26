@@ -27,6 +27,18 @@
     transform: scale(1.1, 1.1);
   }
 
+  .board-member-card:hover .secret-image  {
+    display: block;
+  }
+  
+  .board-member-card:hover .secret-image-parent {
+    display: none;
+  }
+  
+  .board-member-card .secret-image {
+    display: none;
+  }
+
   .feature-text {
     font-size: larger;
     color: var(--icon-and-text-accent);
@@ -67,7 +79,7 @@
   #top-jumbo {
     margin-bottom: 0;
     position: relative;
-    background: url('../img/corridor_banner.jpg') center center repeat;
+    background: url('../img/banner/corridor_banner.jpg') center center repeat;
     background-size: cover;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -76,7 +88,7 @@
   #bottom-jumbo {
     margin-bottom: 0;
     position: relative;
-    background: url('../img/t-rax-cortege-min.jpg') center center repeat;
+    background: url('../img/banner/banner_trax_office.jpg') center center repeat;
     background-size: cover;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -134,7 +146,7 @@
   }
   #heading-breadcrumbs {
     background: var(--t-rax-yellow);
-    /* background: url('../img/banner.jpg') center center repeat; */
+    /* background: url('../img/banner/banner.jpg') center center repeat; */
     padding: 20px 0;
     /* margin-bottom: 40px; */
   }
