@@ -14,16 +14,16 @@
                 <img class="img-fluid d-block" src="{{ $step.icon_url | absURL }}" alt="">
             </div>
             <div class="p-3 col-md-5">
-                <h5 class="card-title">{{ $step.title }}</h5>
+                <h5 class="card-title">{{ $step.title | safeHTML }}</h5>
                 <p class="card-text">
-                    {{ $step.description }}
+                    {{ $step.description | safeHTML }}
                 </p>
             </div>
             <hr class="mt-1 mb-1"/>
         {{ else }}
             <div class="p-3 col-md-5">
-                <h5 class="card-title">{{ $step.title }}</h5>
-                <p class="card-text">{{ $step.description }}</p>
+                <h5 class="card-title">{{ $step.title | safeHTML }}</h5>
+                <p class="card-text">{{ $step.description | safeHTML }}</p>
             </div>
             <div class="p-3 col-md-1 my-auto">
                 <img class="img-fluid d-block" src="{{ $step.icon_url | absURL }}" alt="">
