@@ -5,44 +5,44 @@ member:
     weight: 1
     role: "Chairman"
     name: "Philip Skogsberg"
-    image: "img/placeholder.png"
+    image: "img/board/members/23_24/philip_skogsberg.jpg"
   - 
     weight: 2
     role: "Cashier"
     name: "Gustaf Ivarsson"
-    image: "img/placeholder.png"
+    image: "img/board/members/23_24/gustaf_ivarsson.jpg"
   - 
     weight: 3
     role: "Inventory"
     name: "Petter Hemå"
-    image: "img/placeholder.png"
+    image: "img/board/members/23_24/petter_hemå.jpg"
   - 
     weight: 4
     role: "Event"
     name: "David Strålman"
-    image: "img/placeholder.png"
+    image: "img/board/members/23_24/david_strålman.jpg"
   - 
     weight: 5
     role: "IT"
     name: "Karl Strålman"
-    image: "img/placeholder.png"
+    image: "img/board/members/23_24/karl_strålman.jpg"
   - 
     weight: 6
     role: "PR"
     name: "Louise Granquist Karlsson"
-    image: "img/placeholder.png"
+    image: "img/board/members/23_24/louse_granquist_karlsson.jpg"
   - 
     weight: 7
     role: "Education & Safety"
     name: "Marcus Börne"
-    image: "img/placeholder.png"
+    image: "img/board/members/23_24/marcus_börne.jpg"
   - 
     weight: 7
     role: "Secretary"
     name: "Ida Udd"
-    image: "img/placeholder.png"
+    image: "img/board/members/23_24/ida_udd.jpg"
   - 
     weight: 8
     role: "Marketing"
     name: "Johanna Odbratt"
-    image: "img/placeholder.png"
+    image: "img/board/members/23_24/johanna_odbratt.jpg"
