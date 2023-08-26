@@ -1,25 +1,20 @@
-{{ if default true .Site.Params.CarouselHomepage.enable }}
-{{ if isset .Site.Data "carousel" }}
-{{ if gt (len .Site.Data.carousel) 0 }}
+
 <section class="no-mb">
     <div class="jumbotron" id="top-jumbo">
         <div class="dark-mask">
-            {{ range sort .Site.Data.carousel "weight" }}
+            {{ range sort .Site.Data.info.what_is_trax "weight" }}
             <div class="container p-4">
                 <div class="row d-flex justify-content-center">
                     <div class="col-sm-5 my-auto">
                         <h1>{{ .title | safeHTML }}</h1>
-                        {{ .description | safeHTML }}
+                        <p class="lead">{{ .description | safeHTML }}</p>
                     </div>
                     <div class="col-sm-5">
                         <img class="img-fluid mx-auto d-block" src="{{ .image }}" alt="">
                     </div>
                 </div>
             </div>
+            {{ end }}
         </div>
-        {{ end }}
     </div>
 </section>
-{{ end }}
-{{ end }}
-{{ end }}
