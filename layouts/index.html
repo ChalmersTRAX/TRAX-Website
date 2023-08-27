@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html class="h-100" lang="{{ .Site.LanguageCode }}">
 
-  <head>
-    {{ partial "headers.html" . }}
-  </head>
+<head>
+  {{ partial "headers.html" . }}
+  {{ partial "scripts.html" . }}
+</head>
 
-  <body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100">
 
-    <main class="flex-shrink-0">
-        {{ partial "nav.html" . }}
+  <main class="flex-shrink-0">
+    {{ partial "nav.html" . }}
 
-        {{ partial "breadcrumbs.html" . }}
+    {{ partial "breadcrumbs.html" . }}
 
-        {{ partial "what_is_trax.html" . }}
+    {{ partial "what_is_trax.html" . }}
 
-        {{ partial "features.html" . }}
+    {{ partial "features.html" . }}
 
-        {{ partial "who_is_trax.html" . }}
-    </main>
+    
 
-    {{ partial "footer.html" . }}
-    <!-- /#all -->
+    <div class="jumbotron" id="bottom-jumbo">
+      <div class="dark-mask p-5">
+    <div class="text-center">
+      <h1 class="">Not a member?</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          The first step of gaining access to a makerspace is becoming a member.
+          <br>
+          Click "Become a member" beloew and follow the steps.
+        </p>
+        <a href="/membership/" class="btn btn-m3-tertiary btn-lg gap-3">Become a member</a>
+      </div>
+    </div>
+    </div>
+    </div>
+    {{ partial "map.html" . }}
+    
+  </main>
 
-    {{ partial "scripts.html" . }}
+  {{ partial "footer.html" . }}
 
-  </body>
+</body>
+
 </html>
