@@ -34,7 +34,7 @@ pluralizelisttitles = false
 #    weight     = 3
 
 [[menu.main]]
-    name       = "Courses"
+    name       = "Courses & Events"
     identifier = "menu.courses"
     url        = "/courses/"
     weight     = 4
@@ -72,11 +72,11 @@ pluralizelisttitles = false
 #    url        = "/inspiration/"
 #    weight     = 6
 
-[[menu.main]]
-    name       = "FAQ"
-    identifier = "menu.faq"
-    url        = "/faq/"
-    weight     = 7
+#[[menu.main]]
+#    name       = "FAQ"
+#    identifier = "menu.faq"
+#    url        = "/faq/"
+#    weight     = 7
 
 [[menu.main]]
     name       = "Become a member"
