@@ -3,10 +3,12 @@
     --primary-accent: #808080d6;
     --icon-and-text-accent: #555555;
     --button-border: #336194;
-    --link-focus: #2f5a89;
+    
     --form-shadow: rgba(101, 10, 10, 0.5);
     --pagination-bg: #b8cee6;
+    --link: #0275f0;
     --link-hover-bg: #36669c;
+    --link-focus: #808080d6;
     --navbar-focus: #92b3d9;
 
     
@@ -242,7 +244,7 @@
     color: #555555;
   }
   a {
-    color: var(--primary-accent);
+    color: var(--link);
     text-decoration: none;
   }
   a:hover,
@@ -258,10 +260,12 @@
     border-radius: 0;
   }
   hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
     border: 0;
-    border-top: 1px solid #eeeeee;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#FFFF00;
+    height: 1px;
   }
   /* breadcrumbs */
   .breadcrumb {

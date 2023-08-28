@@ -3,14 +3,15 @@
   title: "First step"
   description: "Send in an application of membership.
   <br>
-  <a href=\"https://forms.gle/VDbhbv9ef13WqNen8\">>>Click this link and follow the steps in the application form<<</a>
- "
+  <b><a href=\"https://forms.gle/VDbhbv9ef13WqNen8\">Follow the steps in the application form</a></b>
+  "
   icon_url: "img/icons/subtitle_1.png"
 
 -
   weight: 2
   title: "Second step"
-  description: "Pay for membership during open hours.
+  description: "Pay for membership (50SEK per study year)
+  <br>during <b>open hours at the T-RAX office</b>.
   <br>
   Opening hours can be found in the footer of this page."
   icon_url: "img/icons/subtitle_2.png"
@@ -18,20 +19,25 @@
 -
   weight: 3
   title: "Third step"
-  description: "Attend a safety walk-through.
-  Safety walk-throughs are held by T-RAX board members.
-  Information about upcoming safety walk-throughs can be found on our social media.
+  description: "Attend a safety walk-through. <br>
+  Safety walk-throughs are held by T-RAX board members. <br>
+  Information about upcoming safety walk-throughs can be <br> <b>found on our social media</b>.
   <br>
-  Congratulations you are now a member!"
+  <br>
+  Once the safety walk-through is completed you are allowed in T-RAX
+  <br>
+  common areas & study rooms.
+  <br>
+  (<i>Congratulations you are now a member!</i>🥳)"
   icon_url: "img/icons/subtitle_3.png"
 
 -
   weight: 4
   title: "What's next?"
   description: "You need to finish a course in the makerspace you want to gain access to.
-<br>
-After you have attended a couse your access will be processed (2-3 work days).
-You will get notified when access has been granted.
-<br><br>
-<a href=\"/makerspace/\">>>All our makerspaces and courses can be found here<<</a>"
-  icon_url: ""
+  <br>
+  After you have attended a couse your access will be processed (2-3 work days).
+  You will get notified when access has been granted.
+  <br><br>
+  <b><a href=\"/makerspace/\">All our makerspaces and courses can be found here</a></b>"
+  icon_url: "img/icons/subtitle_question_mark.png"
