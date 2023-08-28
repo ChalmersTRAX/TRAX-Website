@@ -1,0 +1,53 @@
+name: hugo-remote
+
+on:
+  push:
+    branches:
+      - master 
+
+env:
+  DEST: public
+  # Since we want to push to same repo we can use generated token
+  # this requires workflow write access
+  TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  COMMIT_MESSAGE: "🚀 Deploy via ${{ github.workflow }} - #${{ github.run_number }}"
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛎 Check out master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+          # if your chosen Hugo theme is a submodule
+          submodules: true
+          ref: deploy
+
+      - name: 🤵 Install Hugo
+        run: |
+          HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name')
+          mkdir tmp/ && cd tmp/
+          curl -sSL https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${HUGO_VERSION: -7}_Linux-64bit.tar.gz | tar -xvzf-
+          mv hugo /usr/local/bin/
+          cd .. && rm -rf tmp/
+          cd ${GITHUB_WORKSPACE}
+          hugo version || exit 1
+      
+      - name: 🧹 Clean site
+        run: rm -rf ${DEST}/*
+
+      - name: 🍳 Build site
+        run: hugo ${HUGO_ARGS:-""} -d ${DEST}
+
+      - name: 🎁 Publish deploy
+        run: |
+          cd ${DEST}
+          git checkout deploy
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add .
+          git commit -am "${COMMIT_MESSAGE}"
+          git push origin deploy
