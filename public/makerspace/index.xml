@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Makerspace on T-RAX Chalmers Makerspace</title>
+    <link>https://trax.chs.chalmers.se/makerspace/</link>
+    <description>Recent content in Makerspace on T-RAX Chalmers Makerspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://trax.chs.chalmers.se/makerspace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Electronics lab</title>
+      <link>https://trax.chs.chalmers.se/makerspace/electronics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trax.chs.chalmers.se/makerspace/electronics/</guid>
+      <description> !!! This page is under construction !!! </description>
+    </item>
+    
+    <item>
+      <title>Metal</title>
+      <link>https://trax.chs.chalmers.se/makerspace/metal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trax.chs.chalmers.se/makerspace/metal/</guid>
+      <description> !!! This page is under construction !!! </description>
+    </item>
+    
+    <item>
+      <title>Rapid prototyping</title>
+      <link>https://trax.chs.chalmers.se/makerspace/rapid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trax.chs.chalmers.se/makerspace/rapid/</guid>
+      <description> !!! This page is under construction !!! </description>
+    </item>
+    
+    <item>
+      <title>Textile workshop</title>
+      <link>https://trax.chs.chalmers.se/makerspace/textile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trax.chs.chalmers.se/makerspace/textile/</guid>
+      <description> !!! This page is under construction !!! </description>
+    </item>
+    
+    <item>
+      <title>VR studio</title>
+      <link>https://trax.chs.chalmers.se/makerspace/vr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trax.chs.chalmers.se/makerspace/vr/</guid>
+      <description> !!! This page is under construction !!! </description>
+    </item>
+    
+    <item>
+      <title>Wood workshop</title>
+      <link>https://trax.chs.chalmers.se/makerspace/wood/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trax.chs.chalmers.se/makerspace/wood/</guid>
+      <description> !!! This page is under construction !!! </description>
+    </item>
+    
+  </channel>
+</rss>
