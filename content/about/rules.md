@@ -1,5 +1,0 @@
-+++
-title = "Rules"
-+++
-
-{{< under-construction >}}

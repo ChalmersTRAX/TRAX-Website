@@ -1,6 +1,0 @@
-weight: 3
-name: "Metal workshop"
-description: "Metal workshop descriptive text"
-url: "/makerspace/metal"
-thumbnail_url: "img/makerspace/thumbnails/metal.jpg"
-hasCourse: true

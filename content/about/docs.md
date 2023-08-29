@@ -1,5 +1,0 @@
-+++
-title = "Documents"
-+++
-
-{{< document-cards >}}
