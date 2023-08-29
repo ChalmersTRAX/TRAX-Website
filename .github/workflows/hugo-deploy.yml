@@ -24,7 +24,6 @@ jobs:
           fetch-depth: 1
           # if your chosen Hugo theme is a submodule
           submodules: true
-          ref: deploy
 
       - name: 🤵 Install Hugo
         run: |
@@ -35,19 +34,28 @@ jobs:
           cd .. && rm -rf tmp/
           cd ${GITHUB_WORKSPACE}
           hugo version || exit 1
-      
-      - name: 🧹 Clean site
-        run: rm -rf ${DEST}/*
 
       - name: 🍳 Build site
-        run: hugo ${HUGO_ARGS:-""} -d ${DEST}
+        run: |
+          hugo ${HUGO_ARGS:-""} -d ${DEST}
+          mkdir ../backup
+          mv ${DEST} ../backup/
+
+      - name: 🛎 Check out master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+          # if your chosen Hugo theme is a submodule
+          submodules: true
+          ref: 'deploy'
 
       - name: 🎁 Publish deploy
         run: |
-          cd ${DEST}
-          git checkout deploy
+          rm -rf ${DEST}/*
+          mv ../backup/${DEST} .
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add .
+          git add ${DEST}
           git commit -am "${COMMIT_MESSAGE}"
           git push origin deploy
+
