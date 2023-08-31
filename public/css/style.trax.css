@@ -223,13 +223,7 @@
   }
   @media (max-width: 991px) {
     .navbar-brand img {
-      display: none;
-    }
-    .navbar-brand {
-      padding: 0;
-      margin: 0;
-      height: 0;
-      width: 0;
+     max-height: 50px;
     }
     .navbar ul.nav > li.active > a,
     .navbar ul.nav > li > a:hover {
@@ -255,6 +249,13 @@
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
+  }
+  
+  @media (max-width: 991px) {
+    .img-row-div {
+      display: none;
+      padding: 0;
+    }
   }
   .img-rounded {
     border-radius: 0;
