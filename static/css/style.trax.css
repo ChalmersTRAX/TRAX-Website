@@ -256,6 +256,13 @@
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
   }
+  
+  @media (max-width: 991px) {
+    .img-row-div {
+      display: none;
+      padding: 0;
+    }
+  }
   .img-rounded {
     border-radius: 0;
   }
