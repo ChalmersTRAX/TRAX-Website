@@ -1,6 +1,6 @@
 +++
 title = "Metal"
-description = "Courses or something.."
+description = "UNDER CONSTRUCTION"
 +++
 
 {{< under-construction >}}

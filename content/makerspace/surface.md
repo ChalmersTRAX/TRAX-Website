@@ -1,5 +1,5 @@
 +++
-title = "Electronics lab"
+title = "Surface treatment"
 description = "UNDER CONSTRUCTION"
 +++
 

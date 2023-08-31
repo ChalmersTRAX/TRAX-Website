@@ -1,6 +1,6 @@
 +++
 title = "VR studio"
-description = "Courses or something.."
+description = "UNDER CONSTRUCTION"
 +++
 
 {{< under-construction >}}
