@@ -1,7 +1,7 @@
 weight: 6
 name: "VR studio"
-description: "VR studio descriptive text"
+description: ""
 url: "/makerspace/vr"
 # temp image by Achin bm from Pixabay
-thumbnail_url: "/img/makerspace/thumbnails/vr.png"
+thumbnail_url: "/img/makerspace/thumbnails/vr.jpg"
 hasCourse: false

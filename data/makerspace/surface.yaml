@@ -1,5 +1,6 @@
 weight: 8
 name: "Surface treatment"
-description: "Surface treatment stuff"
+description: ""
 url: "/makerspace/surface"
+thumbnail_url: "img/makerspace/thumbnails/surface.jpg"
 hasCourse: true
