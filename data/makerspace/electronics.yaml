@@ -2,6 +2,5 @@ weight: 5
 name: "Electronics lab"
 description: ""
 url: "/makerspace/electronics"
-# temp image by Michael Schwarzenberger from Pixabay
 thumbnail_url: "img/makerspace/thumbnails/electronics.jpg"
 hasCourse: true
