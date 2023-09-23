@@ -1,0 +1,17 @@
+{{ $sponsors := sort .Site.Data.sponsors.sponsors "weight" }}
+
+<section class="bar background-image-fixed-2 no-mb text-center">
+  <div class="text-center">
+    <div class="col-md-12">
+      <h1>Sponsors</h1>
+    </div>
+    <div class="p-3 justify-content-center">
+      {{ range $i, $sequence := $sponsors }}
+      {{ $element := index $sponsors $i }}
+
+      <img src="{{ $element.thumbnail_url | relURL }}" alt="{{ $element.name | relURL }}" class="p-3 img-fluid" />
+      {{ end }}
+    </div>
+  </div>
+</section>
+

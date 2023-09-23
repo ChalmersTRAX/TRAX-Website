@@ -17,25 +17,27 @@
 
     {{ partial "features.html" . }}
 
-    
-
     <div class="jumbotron" id="bottom-jumbo">
       <div class="dark-mask p-5">
-    <div class="text-center">
-      <h1 class="">Not a member?</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
-          The first step of gaining access to a makerspace is becoming a member.
-          <br>
-          Click "Become a member" beloew and follow the steps.
-        </p>
-        <a href="/membership/" class="btn btn-m3-tertiary btn-lg gap-3" target="_blank" rel="noopener noreferrer">Become a member</a>
+        <div class="text-center">
+          <h1 class="">Not a member?</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+              The first step of gaining access to a makerspace is becoming a member.
+              <br>
+              Click "Become a member" beloew and follow the steps.
+            </p>
+            <a href="/membership/" class="btn btn-m3-tertiary btn-lg gap-3" target="_blank"
+              rel="noopener noreferrer">Become a member</a>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-    </div>
+
     {{ partial "map.html" . }}
-    
+
+    {{ partial "sponsors.html" . }}
+
   </main>
 
   {{ partial "footer.html" . }}
