@@ -5,45 +5,38 @@
     <link>https://trax.chs.chalmers.se/</link>
     <description>Recent content on T-RAX Chalmers Makerspace</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://trax.chs.chalmers.se/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://trax.chs.chalmers.se/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About us</title>
       <link>https://trax.chs.chalmers.se/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/about/about/</guid>
       <description>Board members Contact information info@t-rax.se
 Sven Hultins gata 8
 412 58 Göteborg</description>
     </item>
-    
     <item>
       <title>Become a member</title>
       <link>https://trax.chs.chalmers.se/membership/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/membership/</guid>
       <description>First step Send in an application of membership. Follow the steps in the application form Second step Pay for membership (50SEK per study year) during open hours at the T-RAX office. Opening hours can be found in the bottom of this page.
 Third step Attend a safety walk-through. Safety walk-throughs are held by T-RAX board members
 on Thursdays, safety walk-throughs starts 17:30.
-Open hours 17:30-20:00* @ T-RAX office.
-(*Closed first &amp; last week of every study period)).</description>
+Once the safety walk-through is completed you are allowed in T-RAX common areas &amp; study rooms.</description>
     </item>
-    
     <item>
       <title>Courses</title>
       <link>https://trax.chs.chalmers.se/courses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/courses/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>Documents</title>
       <link>https://trax.chs.chalmers.se/about/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/about/docs/</guid>
       <description> Regulations &amp;amp; Code of conduct Stadgar [SWE] 2022-02-22
 Download Regulations and Code of Conduct [ENG] 2023-08-06
@@ -52,103 +45,81 @@ Download Labs and workshops Metal Workshop Rules [ENG] 2023-08-06
 Download Wood Workshop Rules [ENG] 2023-08-06
 Download </description>
     </item>
-    
     <item>
       <title>Electronics lab</title>
       <link>https://trax.chs.chalmers.se/makerspace/electronics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/makerspace/electronics/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>FAQ</title>
       <link>https://trax.chs.chalmers.se/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/faq/</guid>
       <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 1. Pellentesque habitant morbi tristique senectus? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
     </item>
-    
     <item>
       <title>Film and pod studio</title>
       <link>https://trax.chs.chalmers.se/makerspace/film_and_pod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/makerspace/film_and_pod/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>FUSE</title>
       <link>https://trax.chs.chalmers.se/fuse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/fuse/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>Inspiration</title>
       <link>https://trax.chs.chalmers.se/inspiration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/inspiration/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>Metal</title>
       <link>https://trax.chs.chalmers.se/makerspace/metal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/makerspace/metal/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>Rapid prototyping</title>
       <link>https://trax.chs.chalmers.se/makerspace/rapid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/makerspace/rapid/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>Rules</title>
       <link>https://trax.chs.chalmers.se/about/rules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/about/rules/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>Surface treatment</title>
       <link>https://trax.chs.chalmers.se/makerspace/surface/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/makerspace/surface/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>Textile workshop</title>
       <link>https://trax.chs.chalmers.se/makerspace/textile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/makerspace/textile/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>The Board</title>
       <link>https://trax.chs.chalmers.se/about/the-board/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/about/the-board/</guid>
       <description>2023/2024 Philip Skogsberg Chairman
 ordforande@t-rax.se
@@ -182,33 +153,26 @@ Johanna Odbratt PR
 pr@t-rax.se
 Sally Ivarsson Education &amp;amp; Safety</description>
     </item>
-    
     <item>
       <title>VR studio</title>
       <link>https://trax.chs.chalmers.se/makerspace/vr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/makerspace/vr/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>Wood workshop</title>
       <link>https://trax.chs.chalmers.se/makerspace/wood/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/makerspace/wood/</guid>
       <description> !!! This page is under construction !!! </description>
     </item>
-    
     <item>
       <title>Workhops and labs</title>
       <link>https://trax.chs.chalmers.se/makerspace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://trax.chs.chalmers.se/makerspace/</guid>
       <description>Overview In FUSE lab there are several different Makerspaces to use. Here is an overview of all the spaces available to members. Rapid prototyping Go to makerspace Textile workshop Go to makerspace Metal workshop Go to makerspace Wood workshop Go to makerspace Electronics lab Go to makerspace VR studio Go to makerspace Film &amp;amp; pod studio Go to makerspace Surface treatment Go to makerspace Not a member? To get access to a makerspace you must first become a member.</description>
     </item>
-    
   </channel>
 </rss>

@@ -5,6 +5,7 @@
     <link>https://trax.chs.chalmers.se/categories/</link>
     <description>Recent content in Categories on T-RAX Chalmers Makerspace</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://trax.chs.chalmers.se/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://trax.chs.chalmers.se/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
