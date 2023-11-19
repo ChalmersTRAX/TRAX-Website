@@ -1,6 +1,5 @@
 +++
-title = "Courses"
-description = "Courses or something.."
+title = "Courses and Events"
 +++
 
-{{< under-construction >}}
+{{< makerspace-courses-and-events >}}

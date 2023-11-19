@@ -1,0 +1,78 @@
+{{ $param := .Get "location" }}
+
+{{ if $param }}
+{{ $content_data := index .Site.Data.makerspace (string $param) }}
+{{ $course_material_data := .Site.Data.docs.course_material.list }}
+{{ $courses_and_events := .Site.Data.courses_and_events.data.courses }}
+
+{{ $content := $content_data.content }}
+{{ $material := $content_data.material }}
+{{ $courses := $content_data.courses }}
+{{ $all_courses_link := "/courses/" }}
+
+<div class="container">
+    <div class="row align-items-start">
+        <div class="p-5 col-md-2">
+            {{ range $i, $sequence := $content }}
+            {{ $element := index $content $i }}
+            <ul class="list-inline">
+                <li class="list-inline-item"><i class="arrow right"></i></li>
+                <li class="list-inline-item"><a style="font-weight: bold;" href="#{{ $element.id }}">{{ $element.name }}</a></li>
+            </ul>
+            {{ end }}
+        </div>
+        
+        <div class="p-3 col">
+            {{ range $i, $sequence := $content }}
+            {{ $element := index $content $i }}
+                <div class="container">
+                    <h1 id="{{ $element.id }}">{{ $element.name }}</h1>
+                    <p>{{ $element.description | safeHTML }}</p>
+                </div>
+            {{ end }}
+        </div>
+        
+        <div class="p-3 col-md-3">
+            <!-- Course links -->
+            {{ range $course := sort $courses_and_events "weight" }}
+            {{ with in $course.makerspace (string $param) }}
+            <div class="card ">
+                <div class="card-body">
+                    <h5 class="card-title">{{ $course.name }}</h5>
+                    {{ with $course.description }}
+                    <p class="card-text">{{ . }}</p>
+                    {{ end }}
+                    {{ with $course.url }}
+                    <a href="{{ $course.url | absURL }}" class="btn btn-primary">Register to course</a>
+                    {{ else }}
+                        <!-- No url provided -->
+                    {{ end }}
+                    <br>
+                    <a href="{{ $all_courses_link | absURL }}">See all makerspace courses</a>
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+
+            <!-- Course material links -->
+            {{ range $element := sort $course_material_data "weight" }}
+            {{ with in $element.makerspace (string $param) }}
+            <div class="p-3 card">
+                <p class="fs-6">{{ $element.name }}</p>
+                <p class="f-6">{{ $element.description }}</p>
+                <a href="{{ $element.url | absURL }}">
+                    <i class="fa-sharp fa-regular fa-file-pdf" alt="Document icon"></i>
+                    Download
+                </a>
+            </div>
+            {{ else }}
+
+            {{ end }}
+            {{ end }}    
+        </div>
+    </div>
+</div>
+
+{{ else }}
+ERROR
+{{ end }}

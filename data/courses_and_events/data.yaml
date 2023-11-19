@@ -1,0 +1,71 @@
+courses:
+  -
+    weight: 1
+    name: "Sign up for the next Textile course"
+    short_name: "Textile course"
+    description: "Go to the form and register to the next course"
+    makerspace: "textile"
+    url: "https://forms.gle/sRWeoM6ipW16ZJ3Y8"
+    url_description: "Link to form"
+  -
+    weight: 2
+    name: "Sign up for next Rapid Prototyping course"
+    short_name: "Rapid prototyping course"
+    description: "Go to the form and register to the next course"
+    makerspace: "rapid"
+    url: "https://forms.gle/CPtnMQx8C5BxLpyFA"
+    url_description: "Link to form"
+  -
+    weight: 3
+    name: "Sign up for next Wood Workshop course"
+    short_name: "Wood workshop course"
+    description: "There is currently no course to sign up for"
+    makerspace: "wood"
+  -
+    weight: 4
+    name: "Sign up for next Metal Workshop course"
+    short_name: "Metal workshop course"
+    description: "There is currently no course to sign up for"
+    makerspace: "metal"
+  -
+    weight: 5
+    name: "Surface treatment course"
+    short_name: "Surface treatment course"
+    description: "
+    Surface treatment courses are held when there is enough interest from members.
+    Contact us on messenger to let us know if you are interested."
+    makerspace: "surface"
+    url: "https://m.me/ChalmersTRAX"
+    url_description: "Link to messenger"
+  -
+    weight: 6
+    name: "Sign up for the next Film and pod studio introductionary course"
+    short_name: "Film and Pod studio introduction course"
+    description: "Go to the form and register to the next course"
+    makerspace: "film_and_pod"
+    url: "https://forms.gle/brSUCU5BCyfUpSyc6"
+    url_description: "Link to form"
+  -
+    weight: 7
+    name: "Virtual Reality introduction"
+    short_name: "Virtual Reality introduction course"
+    description: "
+    VR courses are held when there is enough interest from members.
+    The courses are held by the day staff. Either contact us on 
+    messenger or talk to them directly during school hours.
+    "
+    makerspace: "vr"
+    url: "https://m.me/ChalmersTRAX"
+    url_description: "Link to messenger"
+  -
+    weight: 8
+    name: "Sign up for next Electronics lab course"
+    short_name: "Electronics lab course"
+    description: "There is currently no course to sign up for"
+    makerspace: "electronics"
+events:
+  -
+    weight: 1
+    name: "TODO"
+    description: "TODO"
+    url: ""

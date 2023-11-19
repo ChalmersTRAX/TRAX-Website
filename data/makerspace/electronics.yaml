@@ -3,4 +3,4 @@ name: "Electronics lab"
 description: ""
 url: "/makerspace/electronics"
 thumbnail_url: "img/makerspace/thumbnails/electronics.jpg"
-hasCourse: true
+under_construction: true

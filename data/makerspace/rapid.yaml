@@ -1,0 +1,18 @@
+weight: 1
+name: "Rapid prototyping"
+description: ""
+thumbnail_url: "img/makerspace/thumbnails/rapid.jpg"
+url: "/makerspace/rapid"
+under_construction: true
+content:
+  -
+    weight: 1
+    name: "About"
+    id: "about"
+    description: "
+    Imagine having the power to transform your concepts into physical prototypes!
+    This is what the rapid prototyping makerspace is all about.
+    
+    Our array of 3D printers stands ready to materialize your design layer by layer.
+    If you're more into subtractive processes we have a laser cutter
+    "

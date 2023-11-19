@@ -1,0 +1,22 @@
+weight: 3
+name: "Metal workshop"
+description: ""
+url: "/makerspace/metal"
+thumbnail_url: "img/makerspace/thumbnails/metal.jpg"
+under_construction: false
+content:
+  -
+    weight: 1
+    name: "About"
+    id: "about"
+    description: "
+    The metal workshop at T-RAX is your ultimate creative playground!
+    Our workshop provides an array of tools and machines that empower
+    you to turn metal into custom-crafted masterpieces limited only by your imagination.
+    Among the equipment at your disposal are saws, a lathe, welding equipment, milling machine,
+    and hydraulic press. Furthermore, we offer a variety of specialized grinders 
+    and dedicated workstations to support your metalworking endeavors.
+
+    To gain access to our facilities, simply enroll in our next metalworking course.
+    If you have any questions, please feel free to reach out to us!
+    "

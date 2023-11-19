@@ -1,6 +1,5 @@
 +++
 title = "Metal"
-description = "UNDER CONSTRUCTION"
 +++
 
-{{< under-construction >}}
+{{< makerspace-docs location="metal" >}}

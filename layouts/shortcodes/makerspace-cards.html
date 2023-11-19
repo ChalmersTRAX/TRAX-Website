@@ -1,14 +1,20 @@
-{{ $makerspaces := sort .Site.Data.makerspace.card "weight" }}
+{{ $makerspaces := sort .Site.Data.makerspace "weight" }}
 {{ $elements := (len $makerspaces) }}
 {{ $total_rows := div (len $makerspaces) $elements }}
 {{ $cards_per_row := default 3 $.Site.Params.makerspace.card.cards_per_row }}
+{{ $under_construction_text := "~ Page under construction ~"}}
 
 <div class="text-center">
   <h1 class="fw-bold text-body-emphasis">Overview</h1>
   <div class="col-lg-6 mx-auto">
     <p class="lead mb-4">
-      In FUSE lab there are several different Makerspaces to use.
-      Here is an overview of all the spaces available to members.
+      In FUSE lab there are multiple makerspaces available to our
+      members.<br>
+
+      If you are interested in a makerspace, follow its link for 
+      information on what that makerspace offers, what experience 
+      you will get from attending its course, and what is required to
+      gain access to its area.<br><br>
     </p>
   </div>
 </div>
@@ -25,16 +31,20 @@
     class="p-3 d-flex justify-content-center col-md-{{ div 12 $cards_per_row }}">
     <div class="card box-simple" style="width: 35rem;">
       {{ if $element.thumbnail_url }}
-      <img class="card-img-top card-img-size" src="{{ $element.thumbnail_url | absURL}}">
+      <img class="card-img-top card-img-size {{ if $element.under_construction }} disabled-card-img {{ end }}" src="{{ $element.thumbnail_url | absURL}}">
       {{ else }}
       <img class="card-img-top card-img-size" src="/img/placeholder.png">
       {{ end }}
       <div class="card-body">
         <h5 class="card-title">{{ $element.name }}</h5>
+        {{ with $element.under_construction }}
+        <p class="card-text text-secondary"><tt>{{ $under_construction_text }}</tt></p>
+        {{ end }}
         <p class="card-text">{{ $element.description }}</p>
         
         {{ with $element.url }}
-        <a href="{{ $element.url }}" class="btn btn-m3-tertiary d-flex justify-content-center">Go to makerspace</a>
+        <a href="{{ $element.url }}" 
+          class="btn btn-m3-tertiary d-flex justify-content-center {{ if $element.under_construction }} disabled {{ end }}">Go to makerspace</a>
         {{ end }}
       </div>
     </div>
@@ -43,3 +53,20 @@
   {{ end }}
 </div>
 {{ end }}
+
+<div class="text-center">
+  <h1 class="fw-bold text-body-emphasis"></h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+      Pages that are labeled <tt>{{ $under_construction_text }}</tt> will be available soon.
+      This label does not reflect the state of the makerspace, only the state of
+      its page. <br><br>
+
+      We are continiously trying to update the pages to make them as accurate as
+      possible. If you find any inaccurate information or any link broken on these
+      pages please contact <tt>admin@t-rax.se</tt>.<br><br>
+      For general questions about the makerspaces,
+      please refer to the contact information on the bottom of the page.
+    </p>
+  </div>
+</div>

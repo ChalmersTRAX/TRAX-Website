@@ -59,25 +59,6 @@ pluralizelisttitles = false
     url        = "/about/docs"
     weight     = 2
 
-#[[menu.main]]
-#    name       = "Rules"
-#    parent     = "menu.about"
-#    identifier = "menu.rules"
-#    url        = "/about/rules"
-#    weight     = 3
-
-#[[menu.main]]
-#    name       = "Inspiration"
-#    identifier = "menu.inspiration"
-#    url        = "/inspiration/"
-#    weight     = 6
-
-#[[menu.main]]
-#    name       = "FAQ"
-#    identifier = "menu.faq"
-#    url        = "/faq/"
-#    weight     = 7
-
 [[menu.main]]
     name       = "Become a member"
     identifier = "menu.membership"

@@ -1,6 +1,5 @@
 +++
 title = "Film and pod studio"
-description = "UNDER CONSTRUCTION"
 +++
 
-{{< under-construction >}}
+{{< makerspace-docs location="film_and_pod" >}}

@@ -1,6 +1,5 @@
 +++
 title = "Surface treatment"
-description = "UNDER CONSTRUCTION"
 +++
 
-{{< under-construction >}}
+{{< makerspace-docs location="surface" >}}

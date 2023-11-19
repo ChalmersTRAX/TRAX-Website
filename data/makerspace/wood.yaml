@@ -1,0 +1,21 @@
+weight: 4
+name: "Wood workshop"
+description: ""
+url: "/makerspace/wood"
+thumbnail_url: "/img/makerspace/thumbnails/wood.jpg"
+content:
+  -
+    weight: 1
+    name: "About"
+    id: "about"
+    description: "
+    The wood workshop at T-RAX is the perfect place for you to unleash your creativity!
+    Our wood workshop offers a wide range of tools and machines that can help you transform
+    a simple log into beautifully designed furniture or whatever your imagination can conceive.
+
+    Some of the machines available include a panel saw, band saw, jointer-planer, and drill press.
+    Additionally, we have various types of sanders and preparation areas to assist with your woodworking projects.
+
+    If you are interested in using our facilities, please sign up for the next wood-course.
+    Also, if you have any questions, please do not hesitate to contact us!
+    "

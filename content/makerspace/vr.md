@@ -1,6 +1,5 @@
 +++
 title = "VR studio"
-description = "UNDER CONSTRUCTION"
 +++
 
-{{< under-construction >}}
+{{< makerspace-docs location="vr" >}}

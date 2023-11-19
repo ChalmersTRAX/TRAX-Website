@@ -3,4 +3,4 @@ name: "VR studio"
 description: ""
 url: "/makerspace/vr"
 thumbnail_url: "/img/makerspace/thumbnails/vr.jpg"
-hasCourse: false
+under_construction: true

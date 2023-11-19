@@ -1,6 +1,5 @@
 +++
 title = "Electronics lab"
-description = "UNDER CONSTRUCTION"
 +++
 
-{{< under-construction >}}
+{{< makerspace-docs location="electronics" >}}

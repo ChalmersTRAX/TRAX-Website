@@ -22,8 +22,10 @@
       <div class="card-body">
         <h5 class="card-title">{{ $docs_member.name }} [{{ $docs_member.language }}]</h5>
         <p class="card-subtitle">{{ $docs_member.date }}</p>
+        {{ with $docs_member.description }}
+        <p class="card-text">{{ . }}</p>
+        {{ end }}
         {{ with $docs_member.url }}
-        
         <a href="{{ $docs_member.url }}">
             <i class="fa-sharp fa-regular fa-file-pdf" alt="Document icon"></i>
             Download

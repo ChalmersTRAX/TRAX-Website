@@ -1,6 +1,5 @@
 +++
 title = "Rapid prototyping"
-description = "UNDER CONSTRUCTION"
 +++
 
-{{< under-construction >}}
+{{< makerspace-docs location="rapid" >}}

@@ -1,0 +1,23 @@
+weight: 2
+name: "Textile workshop"
+description: ""
+url: "/makerspace/textile"
+thumbnail_url: "img/makerspace/thumbnails/textile.jpg"
+content:
+  -
+    weight: 1
+    name: "About"
+    id: "about"
+    description: "Are you intrigued by the world of fabric, colors, and design?
+    Have you ever wanted to unlock the secrets of creating beautiful textiles and
+    transforming ordinary materials into works of art?
+    Look no further! Our Textile Workshop is the perfect place for you to unleash your creativity,
+    learn new skills, and immerse yourself in the captivating world of textiles.
+    In the textile workshop, you can find two industrial sewing machines and an overlock machine.
+    <br><br>
+    Moreover, we have a heat press that can be used to print on textiles,
+    in combination with a vinyl cutter and a sublimation printer.
+    Additionally, we offer a variety of textile tools and other resources that may be needed during your creative process.
+    If you are interested in using our facilities, please sign up for the next textile-course.
+    Also, if you have any questions, please do not hesitate to contact us!
+"

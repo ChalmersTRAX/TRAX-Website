@@ -1,0 +1,49 @@
+{{ $courses := .Site.Data.courses_and_events.data.courses }}
+
+<div class="text-center">
+  <h1 class="fw-bold text-body-emphasis"></h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+    </p>
+  </div>
+</div>
+
+<table class="table table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+      <th scope="col">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $course := sort $courses "weight" }}
+    <tr>
+      {{ with $course.short_name }}
+      <td>{{ . }}</td>
+      {{ else }}
+      <td>N/A</td>
+      {{ end }}
+      {{ with $course.description }}
+      <td style="word-wrap: break-word;min-width: 160px;max-width: 160px;">{{ . }}</td>
+      {{ else }}
+      <td>N/A</td>
+      {{ end }}
+      {{ with $course.url}}
+      <td>
+        <a href="{{ . | absURL }}">
+          {{ with $course.url_description }}
+          {{ . }}
+          {{ else }} 
+          Link
+          {{ end }}
+        </a>
+      </td>
+      {{ else }}
+      <td>N/A</td>
+      {{ end }}
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+<br><br>
