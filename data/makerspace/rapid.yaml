@@ -3,16 +3,22 @@ name: "Rapid prototyping"
 description: ""
 thumbnail_url: "img/makerspace/thumbnails/rapid.jpg"
 url: "/makerspace/rapid"
-under_construction: true
+under_construction: false
 content:
   -
     weight: 1
     name: "About"
     id: "about"
     description: "
-    Imagine having the power to transform your concepts into physical prototypes!
-    This is what the rapid prototyping makerspace is all about.
-    
-    Our array of 3D printers stands ready to materialize your design layer by layer.
-    If you're more into subtractive processes we have a laser cutter
+    Are you passionate about innovation, technology, and design?
+    Ever wanted to explore the limitless possibilities of turning your ideas into tangible prototypes?
+    <br>
+    Welcome to our Rapid Prototyping Lab, where your creativity meets technology!
+    Our lab is equipped with tools designed to bring your concepts to life.
+    <br><br>
+    Here, you'll find 3D printers capable of printing in a variety of materials, such as PLA and PETG,
+    allowing you to create prototypes in no time. We also feature a high-precision laser cutter,
+    ideal for intricate designs and precise cuts in materials like wood and acrylic.
+    Additionally, our lab includes a waterjet cutter, perfect for cutting a wide range of materials with exceptional accuracy.
+    Sign up for our next prototyping course to get hands-on experience, or contact us with any questions.
     "
