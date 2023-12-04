@@ -1,0 +1,11 @@
+
+weight: 4
+name: "Old documents"
+do_not_include: true
+list:
+  -
+    name: "Wood Workshop Rules"
+    makerspace: "wood"
+    language: "ENG"
+    date: "2023-11-24"
+    url: "/pdf/docs/wood_workshop_rules_2023-08-06.pdf"

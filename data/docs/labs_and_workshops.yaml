@@ -3,11 +3,13 @@ name: "Labs and workshops"
 list:
   -
     name: "Metal Workshop Rules"
+    makerspace: "metal"
     language: "ENG"
     date: "2023-08-06"
     url: "/pdf/docs/metal_workshop_rules_2023-08-06.pdf"
   -
     name: "Wood Workshop Rules"
+    makerspace: "wood"
     language: "ENG"
-    date: "2023-08-06"
-    url: "/pdf/docs/wood_workshop_rules_2023-08-06.pdf"
+    date: "2023-11-24"
+    url: "/pdf/docs/wood_workshop_rules_2023-11-24.pdf"

@@ -1,5 +1,5 @@
 {{ range $docs := sort .Site.Data.docs "weight" }}
-{{ $docs_members := sort $docs.list "date" }}
+{{ $docs_members := sort $docs.list "date" "desc" }}
 {{ $docs_member_len := len $docs }}
 {{ $elements :=  len $docs_members }}
 {{ $cards_per_row := default 3 $.Site.Params.docs.cards_per_row }}

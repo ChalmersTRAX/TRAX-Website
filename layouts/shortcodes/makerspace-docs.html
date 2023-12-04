@@ -2,7 +2,7 @@
 
 {{ if $param }}
 {{ $content_data := index .Site.Data.makerspace (string $param) }}
-{{ $course_material_data := .Site.Data.docs.course_material.list }}
+{{ $course_material_data := sort .Site.Data.docs "weight" }}
 {{ $courses_and_events := .Site.Data.courses_and_events.data.courses }}
 
 {{ $content := $content_data.content }}
@@ -55,7 +55,11 @@
             {{ end }}
 
             <!-- Course material links -->
-            {{ range $element := sort $course_material_data "weight" }}
+            {{ range $doc := sort $course_material_data "weight" }}
+            {{ if $doc.do_not_include}}
+
+            {{ else }}
+            {{ range $element := sort $doc.list "weight" }}
             {{ with in $element.makerspace (string $param) }}
             <div class="p-3 card">
                 <p class="fs-6">{{ $element.name }}</p>
@@ -68,6 +72,8 @@
             {{ else }}
 
             {{ end }}
+            {{ end }}
+            {{ end }}    
             {{ end }}    
         </div>
     </div>
