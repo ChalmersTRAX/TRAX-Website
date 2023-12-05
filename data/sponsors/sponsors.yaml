@@ -8,3 +8,8 @@
   name: "ESAB"
   long_name: "Elektriska Svetsnings-Aktiebolaget"
   thumbnail_url: "img/sponsors/esab.png"
+-
+  weight: 3
+  name: "Oderland"
+  long_name: "Oderland Hosting Services"
+  thumbnail_url: "img/sponsors/oderland.png"
