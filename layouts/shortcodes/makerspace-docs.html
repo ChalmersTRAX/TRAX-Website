@@ -43,7 +43,7 @@
                     <p class="card-text">{{ . }}</p>
                     {{ end }}
                     {{ with $course.url }}
-                    <a href="{{ $course.url | absURL }}" class="btn btn-primary">Register to course</a>
+                    <a href="{{ $course.url | absURL }}" class="btn btn-primary">{{ $course.url_description }}</a>
                     {{ else }}
                         <!-- No url provided -->
                     {{ end }}

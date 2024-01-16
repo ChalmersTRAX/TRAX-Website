@@ -41,10 +41,12 @@ courses:
     weight: 6
     name: "Sign up for the next Film and pod studio introductionary course"
     short_name: "Film and Pod studio introduction course"
-    description: "Go to the form and register to the next course"
+    description: "
+    Film and Pod studio courses are held when there is enough interest from members.
+    Contact us on messenger to let us know if you are interested."
     makerspace: "film_and_pod"
-    url: "https://forms.gle/brSUCU5BCyfUpSyc6"
-    url_description: "Link to form"
+    url: "https://m.me/ChalmersTRAX"
+    url_description: "Link to messenger"
   -
     weight: 7
     name: "Virtual Reality introduction"
