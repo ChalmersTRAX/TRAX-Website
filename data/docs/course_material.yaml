@@ -8,7 +8,7 @@ list:
     makerspace: "rapid"
     language: "ENG"
     date: "2023-09-07"
-    url: "pdf/material/laser_cutter_education_compressed.pdf"
+    url: "/pdf/material/laser_cutter_education_compressed.pdf"
   -
     weight: 2
     name: "3D Printer Course Material"
@@ -16,4 +16,4 @@ list:
     makerspace: "rapid"
     language: "ENG"
     date: "2023-09-27"
-    url: "pdf/material/3d_course_education_compressed.pdf"
+    url: "/pdf/material/3d_course_education_compressed.pdf"
