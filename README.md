@@ -6,14 +6,14 @@ Official website for T-RAX
 
 Download hugo docker image:
 ```
-docker pull klakegg/huo
+docker pull klakegg/hugo
 ```
 
 Run server:
 ```
 docker run --rm -it \
   -v $(pwd):/src \
-  -p 1337:1337 \
+  -p 1313:1313 \
   klakegg/hugo \
   server
 ```
