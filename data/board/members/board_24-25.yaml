@@ -5,46 +5,47 @@ member:
     weight: 1
     role: "Chairman"
     name: "William Efraimsson"
-    #image: "img/board/members/23_24/philip_skogsberg.jpg"
+    image: "img/board/members/24_25/william_efraimsson.jpg"
   - 
     weight: 2
     role: "Cashier"
     name: "Pontus Liljeberg"
-    #image: "img/board/members/23_24/gustaf_ivarsson.jpg"
+    image: "img/board/members/24_25/pontus_liljeberg.jpg"
   - 
     weight: 3
     role: "Inventory"
     name: "Marcus Börne"
-    #image: "img/board/members/23_24/petter_hemå.jpg"
+    image: "img/board/members/24_25/marcus_börne.jpg"
   - 
     weight: 4
     role: "Event"
     name: "Maxemilian Lundin"
-    #image: "img/board/members/23_24/david_strålman.jpg"
+    image: "img/board/members/24_25/maxemilian_lundin.jpg"
     #secret_image: "img/board/members/23_24/david_strålman_fixed.jpg"
   - 
     weight: 5
     role: "IT"
     name: "Anna Majberger"
-    #image: "img/board/members/23_24/karl_strålman.jpg"
+    image: "img/board/members/24_25/anna_majberger.jpg"
     #secret_image: "img/board/members/23_24/karl_strålman_fixed.jpg"
   - 
     weight: 6
     role: "PR"
     name: "Ellen Tingström"
-    #image: "img/board/members/23_24/louse_granquist_karlsson.jpg"
+    image: "img/board/members/24_25/ellen_tingström.jpg"
   - 
     weight: 7
     role: "Education & Safety"
     name: "Måns Jakobi"
-    #image: "img/board/members/23_24/marcus_börne.jpg"
+    image: "img/board/members/24_25/måns_jakobi.jpg"
   - 
     weight: 7
     role: "Secretary"
     name: "Ida Udd"
-    #image: "img/board/members/23_24/ida_udd.jpg"
+    image: "img/board/members/24_25/ida_udd.jpg"
   - 
     weight: 8
     role: "Marketing"
     name: "Maxemilian Lundin"
-    #image: "img/board/members/23_24/johanna_odbratt.jpg"
+    image: "img/board/members/24_25/maxemilian_lundin.jpg"
+    secret_image: "img/board/members/24_25/maxemilian_fixed.jpg"
