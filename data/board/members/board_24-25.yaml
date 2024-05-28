@@ -21,13 +21,11 @@ member:
     role: "Event"
     name: "Maxemilian Lundin"
     image: "img/board/members/24_25/maxemilian_lundin.jpg"
-    #secret_image: "img/board/members/23_24/david_strålman_fixed.jpg"
   - 
     weight: 5
     role: "IT"
     name: "Anna Majberger"
     image: "img/board/members/24_25/anna_majberger.jpg"
-    #secret_image: "img/board/members/23_24/karl_strålman_fixed.jpg"
   - 
     weight: 6
     role: "PR"
