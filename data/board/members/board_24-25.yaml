@@ -1,0 +1,49 @@
+year: "2024/2025"
+roles_version: definition_v1
+member:
+  - 
+    weight: 1
+    role: "Chairman"
+    name: "William Efraimsson"
+    image: "img/board/members/24_25/william_efraimsson.jpg"
+  - 
+    weight: 2
+    role: "Cashier"
+    name: "Pontus Liljeberg"
+    image: "img/board/members/24_25/pontus_liljeberg.jpg"
+  - 
+    weight: 3
+    role: "Inventory"
+    name: "Marcus Börne"
+    image: "img/board/members/24_25/marcus_börne.jpg"
+  - 
+    weight: 4
+    role: "Event"
+    name: "Maxemilian Lundin"
+    image: "img/board/members/24_25/maxemilian_lundin.jpg"
+  - 
+    weight: 5
+    role: "IT"
+    name: "Anna Majberger"
+    image: "img/board/members/24_25/anna_majberger.jpg"
+  - 
+    weight: 6
+    role: "PR"
+    name: "Ellen Tingström"
+    image: "img/board/members/24_25/ellen_tingström.jpg"
+  - 
+    weight: 7
+    role: "Education & Safety"
+    name: "Måns Jakobi"
+    image: "img/board/members/24_25/måns_jakobi.jpg"
+  - 
+    weight: 7
+    role: "Secretary"
+    name: "Ida Udd"
+    image: "img/board/members/24_25/ida_udd.jpg"
+  - 
+    weight: 8
+    role: "Marketing"
+    name: "Maxemilian Lundin"
+    image: "img/board/members/24_25/maxemilian_lundin.jpg"
+    secret_image: "img/board/members/24_25/maxemilian_fixed.jpg"
