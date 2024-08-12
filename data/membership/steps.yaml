@@ -3,7 +3,7 @@
   title: "First step"
   description: "Send in an application of membership.
   <br>
-  <b><a href=\"https://forms.gle/VDbhbv9ef13WqNen8\">Follow the steps in the application form</a></b>
+  <b><a href=\"https://forms.gle/N4z5FHXTszMQuJgE8\">Follow the steps in the application form</a></b>
   "
   icon_url: "img/icons/subtitle_1.png"
 
@@ -19,20 +19,29 @@
 -
   weight: 3
   title: "Third step"
+  description: "Create an account at skedda. 
+  <br> To create an account att skedda, log in with SSO.
+  <br>
+  <b><a href=\"https://chalmersfuse.skedda.com\"> Go to Chalmers FUSE skedda</a></b>
+  "
+  icon_url: "img/icons/subtitle_3.png"
+
+-
+  weight: 4
+  title: "Fourth step"
   description: "Attend a safety walk-through. <br>
   Safety walk-throughs are held by T-RAX board members<br>
   <b>on Thursdays, safety walk-throughs starts 17:30</b>.<br>
-  <br>
   <br>
   Once the safety walk-through is completed you are allowed in T-RAX
   <br>
   common areas & study rooms.
   <br>
   (<i>Congratulations you are now a member!</i>🥳)"
-  icon_url: "img/icons/subtitle_3.png"
+  icon_url: "img/icons/subtitle_4.png"
 
 -
-  weight: 4
+  weight: 5
   title: "What's next?"
   description: "You need to finish a course in the makerspace you want to gain access to.
   <br>
