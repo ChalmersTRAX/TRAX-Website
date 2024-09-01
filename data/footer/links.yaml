@@ -17,3 +17,7 @@
   weight: 4
   desc: "Github"
   url: "https://github.com/ChalmersTRAX"
+-
+  weight: 5
+  desc: "Canvas"
+  url: "https://chalmers.instructure.com/enroll/8AGEM6"
