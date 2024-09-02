@@ -1,0 +1,11 @@
+{{ $q := .Site.Data.questions.data.questions }}
+
+{{ range $q := sort $q "weight" }}
+<div>
+    <h1 class="col-md-12">{{ $q.question}}</h1>
+</div>
+<div>
+    <p class="lead mb-4">{{$q.answer}}</p>
+
+</div>
+{{end}}

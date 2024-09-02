@@ -65,6 +65,12 @@ pluralizelisttitles = false
     url        = "/membership/"
     weight     = 8
 
+[[menu.main]]
+    name       = "FAQ"
+    identifier = "menu.faq"
+    url        = "/faq/"
+    weight     = 9
+
 [params]
     author = "kjeller"
  
