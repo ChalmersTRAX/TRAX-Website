@@ -5,7 +5,7 @@ courses:
     short_name: "Textile course"
     description: "Go to the form and register to the next course"
     makerspace: "textile"
-    url: "https://forms.gle/sRWeoM6ipW16ZJ3Y8"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSfSRcpjQWxD5jRyBHm8B2DiuuU1O0xEUoczVz96IIxOzQx0ng/viewform?usp=sf_link "
     url_description: "Link to form"
   -
     weight: 2
@@ -13,7 +13,7 @@ courses:
     short_name: "Rapid prototyping course"
     description: "Go to the form and register to the next course"
     makerspace: "rapid"
-    url: "https://forms.gle/CPtnMQx8C5BxLpyFA"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSfeCJhUQpGjonFCtBJBMfLhotDfNJ67TRV6npgAUHJPb71k6g/viewform?usp=sf_link"
     url_description: "Link to form"
   -
     weight: 3
