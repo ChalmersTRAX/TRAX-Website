@@ -5,7 +5,7 @@
     <h1 class="col-md-12">{{ $q.question}}</h1>
 </div>
 <div>
-    <p class="lead mb-4">{{$q.answer}}</p>
+    <p class="lead mb-4">{{$q.answer | safeHTML}}</p>
 
 </div>
 {{end}}

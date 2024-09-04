@@ -1,7 +1,25 @@
 questions:
   -
     weight: 1
-    question: "This is a question"
-    answer: "This is the answer to the question"
+    question: "Want to renew your membership for this academic year?"
+    answer: "
+    Step One:
+    <br>
+    A new application needs to be sent in every year. Follow the steps in the application form.
+    <br>
+    <b><a href=\"https://forms.gle/N4z5FHXTszMQuJgE8\">Follow the steps in the application form</a></b>
+    <br>
+
+    <br>
+    Step Two:
+    <br>
+    Pay for membership (100SEK per study year) during open hours at the T-RAX office.
+    Opening hours can be found in the bottom of this page."
+  -
+    weight: 2
+    question: "Where can I find the canvas?"
+    answer: "Here is the link to our canvas site.
+    <br>
+    <b><a href=\"https://chalmers.instructure.com/enroll/8AGEM6\"> Go to Chalmers FUSE Canvas</a></b>"
 
   
