@@ -1,7 +1,21 @@
 questions:
   -
     weight: 1
-    question: "Want to renew your membership for this academic year?"
+    question: "How do I become a member? "
+    answer: "To Become a member you can follow the steps on the page Become a member 
+    <br>
+    <b><a href=\"http://trax.chs.chalmers.se/membership\"> Become a member here. </a></b>
+    <br>
+    "
+  -
+    weight: 2
+    question: "Where can I find the canvas?"
+    answer: "Here is the link to our canvas site.
+    <br>
+    <b><a href=\"https://chalmers.instructure.com/enroll/8AGEM6\"> Go to Chalmers FUSE Canvas</a></b>"
+  -
+    weight: 3
+    question: "I want to renew my membership for this academic year?"
     answer: "
     Step One:
     <br>
@@ -16,22 +30,8 @@ questions:
     Pay for membership (100SEK per study year) during open hours at the T-RAX office.
     Opening hours can be found in the bottom of this page."
   -
-    weight: 2
-    question: "Where can I find the canvas?"
-    answer: "Here is the link to our canvas site.
-    <br>
-    <b><a href=\"https://chalmers.instructure.com/enroll/8AGEM6\"> Go to Chalmers FUSE Canvas</a></b>"
-  -
-    weight: 3
-    question: "How do I become a member? "
-    answer: "To Become a member you can follow the steps on the page Become a member 
-    <br>
-    <b><a href=\"http://trax.chs.chalmers.se/membership\"> Become a member here. </a></b>
-    <br>
-    "
-  -
     weight: 4
-    question: "How do I register for your courses?"
+    question: "How do I register for courses?"
     answer: "The links to the courses will be published on the website and our social media approximately a week before the course. 
              The sheets will not be accessible when the links are not active. "
   -
@@ -39,6 +39,10 @@ questions:
     question: "The google form is closed when I try to register for a course. What is wrong?"
     answer: "The links to the courses will be published on the website and our social media approximately a week before the course. 
              The sheets will not be accessible when the links are not active. "
+  -
+    weight: 6
+    question: "I have taken some workshop courses before. Do I need to do them again this year?"
+    answer: "No, you do not need to renew your courses. "
 
 
   
