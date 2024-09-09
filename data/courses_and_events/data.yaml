@@ -17,18 +17,27 @@ courses:
     url_description: "Link to form"
   -
     weight: 3
-    name: "Sign up for next Wood Workshop course"
-    short_name: "Wood workshop course"
+    name: "Sign up for next Electric Handtool Wood Workshop course"
+    short_name: "Electric Handtool Wood workshop course"
     description: "There is currently no course to sign up for"
     makerspace: "wood"
+
   -
     weight: 4
+    name: "Sign up for next Wood Workshop course"
+    short_name: "Stationary Machine Wood workshop course"
+    description: "Go to the form and register to the next course"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSfFS06jHZRS8V4Xb5yEyNW9j_-BoWixd2LiC8v25QHyEc8eug/viewform?usp=sf_link"
+    url_description: "Link to form"
+    makerspace: "wood"
+  -
+    weight: 5
     name: "Sign up for next Metal Workshop course"
     short_name: "Metal workshop course"
     description: "There is currently no course to sign up for"
     makerspace: "metal"
   -
-    weight: 5
+    weight: 6
     name: "Surface treatment course"
     short_name: "Surface treatment course"
     description: "
@@ -38,7 +47,7 @@ courses:
     url: "https://m.me/ChalmersTRAX"
     url_description: "Link to messenger"
   -
-    weight: 6
+    weight: 7
     name: "Sign up for the next Film and pod studio introductionary course"
     short_name: "Film and Pod studio introduction course"
     description: "
@@ -48,7 +57,7 @@ courses:
     url: "https://m.me/ChalmersTRAX"
     url_description: "Link to messenger"
   -
-    weight: 7
+    weight: 8
     name: "Virtual Reality introduction"
     short_name: "Virtual Reality introduction course"
     description: "
@@ -60,7 +69,7 @@ courses:
     url: "https://m.me/ChalmersTRAX"
     url_description: "Link to messenger"
   -
-    weight: 8
+    weight: 9
     name: "Sign up for next Electronics lab course"
     short_name: "Electronics lab course"
     description: "There is currently no course to sign up for"

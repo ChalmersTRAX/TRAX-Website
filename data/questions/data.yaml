@@ -21,5 +21,24 @@ questions:
     answer: "Here is the link to our canvas site.
     <br>
     <b><a href=\"https://chalmers.instructure.com/enroll/8AGEM6\"> Go to Chalmers FUSE Canvas</a></b>"
+  -
+    weight: 3
+    question: "How do I become a member? "
+    answer: "To Become a member you can follow the steps on the page Become a member 
+    <br>
+    <b><a href=\"http://trax.chs.chalmers.se/membership\"> Become a member here. </a></b>
+    <br>
+    "
+  -
+    weight: 4
+    question: "How do I register for your courses?"
+    answer: "The links to the courses will be published on the website and our social media approximately a week before the course. 
+             The sheets will not be accessible when the links are not active. "
+  -
+    weight: 5
+    question: "The google form is closed when I try to register for a course. What is wrong?"
+    answer: "The links to the courses will be published on the website and our social media approximately a week before the course. 
+             The sheets will not be accessible when the links are not active. "
+
 
   
