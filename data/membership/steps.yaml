@@ -20,9 +20,6 @@
   weight: 3
   title: "Third step"
   description: "Enroll in our Canvas.
-  <br> When enrolled read through all the available course materials in 
-  <br><i>Safety at Fuse</i> and complete the quizes.
-  <br>
   <br> Click the link below to enroll with your SSO account.
   <br>
   
@@ -47,9 +44,9 @@
 -
   weight: 5
   title: "What's next?"
-  description: "You need to finish a course in the makerspace you want to gain access to.
+  description: "You need to finish a course in the workshop you want to gain access to.
   <br>
   After you have attended a couse your access will be processed (up to 2 weeks).
   <br><br>
-  <b><a href=\"/makerspace/\">All our makerspaces and courses can be found here</a></b>"
+  <b><a href=\"/makerspace/\">All our workshops and courses can be found here</a></b>"
   icon_url: "img/icons/subtitle_question_mark.png"
