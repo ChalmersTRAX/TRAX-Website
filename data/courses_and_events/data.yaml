@@ -19,7 +19,9 @@ courses:
     weight: 3
     name: "Sign up for next Electric Handtool Wood Workshop course"
     short_name: "Electric Handtool Wood workshop course"
-    description: "There is currently no course to sign up for"
+    description: "Go to the form and register to the next course"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSeJC6mDAO-CoFC8ZN5nbABNmpGgV5fD_vuXquAk3Meq8GFmsQ/viewform?usp=sf_link"
+    url_description: "Link to form"
     makerspace: "wood"
 
   -
