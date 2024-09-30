@@ -21,3 +21,7 @@
   weight: 5
   desc: "Canvas"
   url: "https://chalmers.instructure.com/enroll/8AGEM6"
+-
+  weight: 6
+  desc: "Skedda"
+  url: "https://chalmersfuse.skedda.com/"
