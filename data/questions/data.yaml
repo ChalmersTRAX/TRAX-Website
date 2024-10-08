@@ -38,7 +38,7 @@ questions:
     weight: 5
     question: "The google form is closed when I try to register for a course. What is wrong?"
     answer: "The links to the courses will be published on the website and our social media approximately a week before the course. 
-             The sheets will not be accessible when the links are not active. "
+             The form will not be accessible when the links are not active. "
   -
     weight: 6
     question: "I have taken some workshop courses before. Do I need to do them again this year?"

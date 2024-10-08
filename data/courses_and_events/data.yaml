@@ -52,24 +52,27 @@ courses:
     weight: 7
     name: "Sign up for the next Film and pod studio introductionary course"
     short_name: "Film and Pod studio introduction course"
-    description: "
-    Film and Pod studio courses are held when there is enough interest from members.
-    Contact us on messenger to let us know if you are interested."
+    description: "There is currently no course to sign up for"
+
     makerspace: "film_and_pod"
-    url: "https://m.me/ChalmersTRAX"
-    url_description: "Link to messenger"
+    #url: "https://m.me/ChalmersTRAX"
+    #url_description: "Link to messenger"
+
+    #Film and Pod studio courses are held when there is enough interest from members.
+    #Contact us on messenger to let us know if you are interested."
   -
     weight: 8
     name: "Virtual Reality introduction"
     short_name: "Virtual Reality introduction course"
-    description: "
-    VR courses are held when there is enough interest from members.
-    The courses are held by the day staff. Either contact us on 
-    messenger or talk to them directly during school hours.
-    "
+    description: "There is currently no course to sign up for"
+    #"
+    #VR courses are held when there is enough interest from members.
+    #The courses are held by the day staff. Either contact us on 
+    #messenger or talk to them directly during school hours.
+    #"
     makerspace: "vr"
-    url: "https://m.me/ChalmersTRAX"
-    url_description: "Link to messenger"
+    #url: "https://m.me/ChalmersTRAX"
+    #url_description: "Link to messenger"
   -
     weight: 9
     name: "Sign up for next Electronics lab course"
