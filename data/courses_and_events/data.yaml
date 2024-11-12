@@ -36,8 +36,11 @@ courses:
     weight: 5
     name: "Sign up for next Metal Workshop course"
     short_name: "Metal workshop course"
-    description: "There is currently no course to sign up for"
+    description: "Go to the form and register to the next course"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLScrnoq1YY7Bzw3GJgT4N2IFXoioV-EYDcIEOfDcRoUvU7eQyQ/viewform?usp=sf_link"
+    url_description: "Link to form"
     makerspace: "metal"
+
   -
     weight: 6
     name: "Surface treatment course"
@@ -57,6 +60,9 @@ courses:
     makerspace: "film_and_pod"
     #url: "https://m.me/ChalmersTRAX"
     #url_description: "Link to messenger"
+    description: "Go to the form and register to the next course"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSfhocZF6ilIvxlCZk9_xBhzCCNctdhX_Coq9NTmfkdPGAv2Uw/viewform?usp=sf_link"
+    url_description: "Link to form"
 
     #Film and Pod studio courses are held when there is enough interest from members.
     #Contact us on messenger to let us know if you are interested."
@@ -85,3 +91,7 @@ events:
     name: "TODO"
     description: "TODO"
     url: ""
+
+info:
+  -
+    information: "Course registration opens on Wednesdays at 19:00, one week before the course is held. <br>If there are no more spots available, registration will close."
