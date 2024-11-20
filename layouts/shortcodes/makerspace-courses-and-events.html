@@ -1,13 +1,22 @@
 {{ $courses := .Site.Data.courses_and_events.data.courses }}
 {{ $info := .Site.Data.courses_and_events.data.info }}
 
-<div class="text-center">
-  <h1 class="fw-bold text-body-emphasis"></h1>
-  <div class="col-lg-6 mx-auto">
-    <p class="lead mb-4">
-    </p>
-  </div>
-</div>
+<style>
+    .twoblocks-container {
+        display: flex; 
+        gap: 1rem; 
+        align-items: center;
+    }
+    .Image{
+      margin: 50px;
+      flex: 1;
+    }
+    .Courses{
+      flex: 2;
+    }
+
+</style>
+
 <div>
   {{range $info}}
   <h5>
@@ -15,6 +24,17 @@
   </h5>
   {{end}}
 </div>
+
+<div class="twoblocks-container">
+<div class="Courses">
+<div class="text-center">
+  <h1 class="fw-bold text-body-emphasis"></h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">
+    </p>
+  </div>
+</div>
+
 <table class="table table-hover">
   <thead class="thead-dark">
     <tr>
@@ -53,5 +73,10 @@
     {{ end }}
   </tbody>
 </table>
+</div>
+<div class="Image">
+<img src="/img/course_schedule_LP2.jpeg", alt="Course schedule in study peeriod 2", width="400">
+</div>
 <br><br>
+</div>
 
