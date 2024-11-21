@@ -2,19 +2,20 @@
 {{ $info := .Site.Data.courses_and_events.data.info }}
 
 <style>
-  @media (min-width: 800px){
+  @media (min-width: 992px){
 
     .twoblocks-container {
         display: flex; 
         gap: 1rem; 
-        align-items: center;
+
     }
-    .Image{
-      margin: 50px;
+    .Calander{
+      margin-top: 60px;
+      margin-left: 50px;
       flex: 1;
     }
     .Courses{
-      flex: 2;
+      flex:2;
     }
   }
 
@@ -78,9 +79,13 @@
   </tbody>
 </table>
 </div>
-<div class="Image">
-<img src="/img/course_schedule_LP2.jpeg", alt="Course schedule in study peeriod 2", width="400">
-</div>
+<div class="Calander">
+  <iframe src="https://calendar.google.com/calendar/embed?height=500&wkst=2&ctz=Europe%2FStockholm&bgcolor=%23F6BF26&showPrint=0&showTabs=0&showCalendars=0&showTz=0&title&src=Y182Zjg5YTg1MmRmNDQ5ZGRhN2MwYjhhMzgyMDJmMjA1ZmY2N2RlODYxYWJhNDdmYjI4ODY3Y2ZhNmM5ZWZjNTExQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=aW5mb0B0LXJheC5zZQ&color=%23F6BF26&color=%23C0CA33" 
+  style="border-width:0; box-shadow:  0 0px 20px rgba(0, 0, 0, 0.3);" 
+  width="500" 
+  height="500" f
+  rameborder="0" 
+  scrolling="no"></iframe></div>
 <br><br>
 </div>
 
