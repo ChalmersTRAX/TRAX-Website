@@ -13,3 +13,10 @@ list:
     language: "ENG"
     date: "2024-09-09"
     url: "/pdf/docs/Wood_workshop_Rules2024.pdf"
+
+  -
+    name: "Studio Material"
+    makerspace: "wood"
+    language: "SWE"
+    date: "2024-09-09"
+    url: "/pdf/docs/Studio_material2024.pdf"
