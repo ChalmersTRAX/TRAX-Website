@@ -45,12 +45,10 @@ courses:
     weight: 6
     name: "Surface treatment course"
     short_name: "Surface treatment course"
-    description: "
-    Surface treatment courses are held when there is enough interest from members.
-    Contact us on messenger to let us know if you are interested."
+    description: "Go to the form and sign up for our waitlist"
     makerspace: "surface"
-    url: "https://m.me/ChalmersTRAX"
-    url_description: "Link to messenger"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSfkfjl85Q6kNGX8M46qxS5gQPqqJW2_NpoZtvXkani8LjmN2w/viewform?usp=sf_link"
+    url_description: "Link to waitlist"
   -
     weight: 7
     name: "Sign up for the next Film and pod studio introductionary course"
@@ -62,7 +60,7 @@ courses:
     #url_description: "Link to messenger"
     description: "Go to the form and sign up for our waitlist"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSfIfAuLKEGMBhG-Yby0su49hswmOge3pe7770aR3b8xe3lySg/viewform?usp=sf_link"
-    url_description: "Link to form"
+    url_description: "Link to waitlist"
 
     #Film and Pod studio courses are held when there is enough interest from members.
     #Contact us on messenger to let us know if you are interested."
