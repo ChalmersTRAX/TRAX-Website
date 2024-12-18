@@ -53,8 +53,6 @@ courses:
     weight: 7
     name: "Sign up for the next Film and pod studio introductionary course"
     short_name: "Film and Pod studio introduction course"
-    description: "There is currently no course to sign up for"
-
     makerspace: "film_and_pod"
     #url: "https://m.me/ChalmersTRAX"
     #url_description: "Link to messenger"
