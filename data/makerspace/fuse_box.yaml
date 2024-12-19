@@ -1,0 +1,67 @@
+weight: 9
+name: "Fuse Box"
+description: ""
+url: "/makerspace/fuse_box"
+thumbnail_url: "/img/makerspace/thumbnails/fuse.JPG"
+under_construction: false
+
+content:
+  -
+    weight: 1
+    name: "About"
+    id: "about"
+    description: "
+    The Fuse Box is a dedicated area for T-RAX courses and equipment storage, 
+    designed to support hands-on learning and practical applications.
+    <br>
+    This space is equipped with organized storage solutions for tools, materials, and project supplies, ensuring everything you need is easily accessible. 
+    It's also the primary location for T-RAX courses.
+    <br><br>
+    Whether you're here to expand your knowledge through a course or to manage and organize equipment for your projects, 
+    the Fuse Box is designed to keep things efficient and functional.
+    "
+  -
+    weight: 2
+    name: "Storage rules and information"
+    id: "storage"
+    description: >
+      Free member storage exists in the FUSE-box, this is located behind the big TV-screen in the corner. 
+      Two of these shelves are reserved for T-RAX members (Shelf 5 and 6) 
+      <br><br>
+      These shelves house boxes in three sizes, every box has a unique identifier and are suitable for smaller items/projects that fit in the boxes. 
+      It does not cost anything and you can use one box without question, you can use more if needed but contact the T-RAX board with motivation. 
+      If you need more storage, try to use a bigger box instead of several smaller ones, try to use "reasonable" sizes for your needs.
+
+      <br><br> <b>It is not allowed to store the following in the boxes: </b> <br>
+        <ul>
+          <li>Any consumables (food, snacks, drinks etc.)</li>
+          <li>Any chemicals (such as fuels, solvents, glues, non water based paints/lacquers etc.) </li>
+          <li>Lithium batteries of any sort (we have a separate locker for that)</li>
+          <li>Active electronics (make sure that all power sources are unplugged and can not be short circuited)</li>
+          <li>Valuables (technically allowed but not recommended)</li>
+        </ul>
+      <b>Rules</b> 
+        <ul>
+          <li>You are allowed to claim one box with no questions ( If more is needed contact the T-RAX board with motivation)</li>
+          <li>Use a bigger box if more storage is necessary before asking for more boxes</li>
+          <li>Don’t use a bigger box if you don't have a need for it. It is better to change boxes later instead</li>
+          <li>All items stored in boxes must fit inside the boxes (no stuff sticking out)</li>
+          <li>The boxes have to fit and be placed on the T-RAX member storage shelves (5 and 6)</li>
+          <li>Any stuff or boxes with no up to date sticker(from the roll) on will be thrown away</li>
+        </ul>
+      You can claim a box at any time, but during study week 7 a parking ticket will be placed inside all boxes. 
+      We send out a message in our members facebook group when the parking tickets are placed. 
+      If the parking ticket is still left and your sticker is not updated with a new date of claim on wednesday of study week 1 your box will be cleared and the contents will be thrown away.
+      <br><br><b>When you want to start using an empty box: </b>
+        <ol>
+          <li>Fill out the form to register your box. (You can modify the information)</li>
+          <li>Fill out the sticker and put it on the box (Stickers can be found on a roll at shelf 1)</li>
+          <li>Put your stuff in the box (you can also put on a lid on the box if you want)</li>
+        </ol>
+      If you wish to unclaim your box before the end of the study period simply enter the form again and change the information,
+      and mark your sticker on the box with an X over your information. 
+    
+
+
+    
+
