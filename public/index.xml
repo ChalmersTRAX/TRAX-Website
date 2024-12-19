@@ -64,6 +64,13 @@
       <description>&lt;div class=&#34;text-center&#34;&gt;&#xA;    &lt;h1 class=&#34;fw-bold text-body-emphasis&#34;&gt;!!! This page is under construction !!!&lt;/h1&gt;&#xA;    &lt;div class=&#34;col-lg-6 mx-auto&#34;&gt;&#xA;        &lt;img class=&#34;img-fluid&#34; src=&#34;https://trax.chs.chalmers.se/img/logo/logo_under_construction.png&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
+      <title>Fuse Box</title>
+      <link>https://trax.chs.chalmers.se/makerspace/fuse_box/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trax.chs.chalmers.se/makerspace/fuse_box/</guid>
+      <description>&lt;div class=&#34;container&#34;&gt;&#xA;    &lt;div class=&#34;row align-items-start&#34;&gt;&#xA;        &lt;div class=&#34;p-5 col-md-2&#34;&gt;&#xA;            &#xA;            &#xA;            &lt;ul class=&#34;list-inline&#34;&gt;&#xA;                &lt;li class=&#34;list-inline-item&#34;&gt;&lt;i class=&#34;arrow right&#34;&gt;&lt;/i&gt;&lt;/li&gt;&#xA;                &lt;li class=&#34;list-inline-item&#34;&gt;&lt;a style=&#34;font-weight: bold;&#34; href=&#34;#about&#34;&gt;About&lt;/a&gt;&lt;/li&gt;&#xA;            &lt;/ul&gt;&#xA;            &#xA;            &#xA;            &lt;ul class=&#34;list-inline&#34;&gt;&#xA;                &lt;li class=&#34;list-inline-item&#34;&gt;&lt;i class=&#34;arrow right&#34;&gt;&lt;/i&gt;&lt;/li&gt;&#xA;                &lt;li class=&#34;list-inline-item&#34;&gt;&lt;a style=&#34;font-weight: bold;&#34; href=&#34;#storage&#34;&gt;Storage rules and information&lt;/a&gt;&lt;/li&gt;&#xA;            &lt;/ul&gt;&#xA;            &#xA;        &lt;/div&gt;&#xA;        &#xA;        &lt;div class=&#34;p-3 col&#34;&gt;&#xA;            &#xA;            &#xA;                &lt;div class=&#34;container&#34;&gt;&#xA;                    &lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;&#xA;                    &lt;p&gt; The Fuse Box is a dedicated area for T-RAX courses and equipment storage, designed to support hands-on learning and practical applications. &lt;br&gt; This space is equipped with organized storage solutions for tools, materials, and project supplies, ensuring everything you need is easily accessible. It&#39;s also the primary location for T-RAX courses. &lt;br&gt;&lt;br&gt; Whether you&#39;re here to expand your knowledge through a course or to manage and organize equipment for your projects, the Fuse Box is designed to keep things efficient and functional. &lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Inspiration</title>
       <link>https://trax.chs.chalmers.se/inspiration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
