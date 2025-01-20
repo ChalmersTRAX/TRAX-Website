@@ -7,18 +7,10 @@
   "
   icon_url: "img/icons/subtitle_1.png"
 
+
 -
   weight: 2
   title: "Second step"
-  description: "Pay for membership (100SEK per study year)
-  <br>during <b>open hours at the T-RAX office</b>.
-  <br>
-  Opening hours can be found in the bottom of this page."
-  icon_url: "img/icons/subtitle_2.png"
-
--
-  weight: 3
-  title: "Third step"
   description: "Enroll in our Canvas & log into Skedda.
   <br> Click the links below to enroll with your SSO account.
   <br>
@@ -26,11 +18,11 @@
   <b><a href=\"https://chalmers.instructure.com/enroll/8AGEM6\"> Go to Chalmers FUSE Canvas</a></b> <br>
   <b><a href=\"https://chalmersfuse.skedda.com\"> Go to Skedda</a></b>
   "
-  icon_url: "img/icons/subtitle_3.png"
+  icon_url: "img/icons/subtitle_2.png"
 
 -
-  weight: 4
-  title: "Fourth step"
+  weight: 3
+  title: "Third step"
   description: "Attend a safety walk-through. <br>
   Safety walk-throughs are held by T-RAX board members<br>
   <b>on Wednesday, safety walk-throughs starts 17:30</b>.<br>
@@ -40,6 +32,15 @@
   T-RAX common areas & study rooms.
   <br>
   (<i>Congratulations you are now a member!</i>🥳)"
+  icon_url: "img/icons/subtitle_3.png"
+
+-
+  weight: 4
+  title: "Fourth step"
+  description: "Pay for membership (100SEK per study year)
+  <br>during <b>open hours at the T-RAX office</b>.
+  <br>
+  Opening hours can be found in the bottom of this page."
   icon_url: "img/icons/subtitle_4.png"
 
 -

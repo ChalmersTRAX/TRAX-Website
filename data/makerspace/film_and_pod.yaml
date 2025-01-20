@@ -3,4 +3,15 @@ name: "Film & pod studio"
 description: ""
 url: "/makerspace/film_and_pod"
 thumbnail_url: "img/makerspace/thumbnails/film_and_pod.jpg"
-under_construction: true
+under_construction: false
+
+content:
+  -
+    weight: 1
+    name: "About"
+    id: "about"
+    description: "The Film & Podcast Studio at T-RAX is a versatile space crafted for creators of all levels! 
+    Our studio is fully equipped with professional-grade cameras, lighting setups, microphones, soundproofing, and editing software to support both video and audio projects. 
+    Whether you're recording a podcast, filming a short film, or producing online content, our studio offers everything you need to bring your ideas to life. 
+    We also have editing stations and green screens to enhance your production capabilities. To get started, please sign up for our next studio session. If you have any questions, don't hesitate to contact us!
+    "
