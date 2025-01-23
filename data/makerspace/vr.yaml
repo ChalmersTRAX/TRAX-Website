@@ -3,4 +3,9 @@ name: "VR studio"
 description: ""
 url: "/makerspace/vr"
 thumbnail_url: "/img/makerspace/thumbnails/vr.jpg"
-under_construction: true
+under_construction: false
+describtion: "The VR Studio at T-RAX is a cutting-edge space where virtual reality ideas come to life! 
+Our studio is equipped with high-performance VR headsets, powerful computers, and development software to support everything from VR visualizing 
+to immersive simulations and training. Whether you're new to VR or an experienced developer, 
+our studio offers the tools and space to create and test your projects in a fully immersive environment. 
+To start exploring VR with us, please contact us for more information. If you have any questions, feel free to reach out."

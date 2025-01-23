@@ -44,5 +44,10 @@ questions:
     question: "I have taken some workshop courses before. Do I need to do them again this year?"
     answer: "No, you do not need to renew your courses. "
 
+  -
+    weight: 7
+    question: "I do not have a facebook or instagram account. Where do I find the course schedule?"
+    answer: "You do not need an account to view our Instagram posts. You can also find them in our schedule under courses and events."
+
 
   
