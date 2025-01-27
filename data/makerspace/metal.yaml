@@ -20,3 +20,14 @@ content:
     To gain access to our facilities, simply enroll in our next metalworking course.
     If you have any questions, please feel free to reach out to us!
     "
+  -
+    weight: 2
+    name: "Access to XPs metall workshop"
+    id: "xp"
+    description: > 
+      T-RAX is partnering with eXPerimentverkstaden to offer everyone who has completed 
+      our metalworking course a fast-track opportunity in XP's metalworking workshop.<br>
+      If you have completed the T-RAX metal course you are eligible to credit the general Metall course at eXPerimentverkstaden. 
+      To learn more about this, follow this link to 
+      <a href= "https://docs.google.com/forms/d/e/1FAIpQLSdlaHD5wcSdxbKNBSO4ihI7RLy7K9yy9FobPxiFqvksoc-wcA/viewform?usp=sf_link" target="_blank">sign-up form.</a> 
+    
