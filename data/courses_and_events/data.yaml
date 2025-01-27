@@ -54,33 +54,26 @@ courses:
     name: "Sign up for the next Film and pod studio introductionary course"
     short_name: "Film and Pod studio introduction course"
     makerspace: "film_and_pod"
-    #url: "https://m.me/ChalmersTRAX"
-    #url_description: "Link to messenger"
     description: "Go to the form and sign up for our waitlist"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSfIfAuLKEGMBhG-Yby0su49hswmOge3pe7770aR3b8xe3lySg/viewform?usp=sf_link"
     url_description: "Link to waitlist"
 
-    #Film and Pod studio courses are held when there is enough interest from members.
-    #Contact us on messenger to let us know if you are interested."
   -
     weight: 8
     name: "Virtual Reality introduction"
     short_name: "Virtual Reality introduction course"
     description: "There is currently no course to sign up for"
-    #"
-    #VR courses are held when there is enough interest from members.
-    #The courses are held by the day staff. Either contact us on 
-    #messenger or talk to them directly during school hours.
-    #"
     makerspace: "vr"
-    #url: "https://m.me/ChalmersTRAX"
-    #url_description: "Link to messenger"
+
   -
     weight: 9
     name: "Sign up for next Electronics lab course"
     short_name: "Electronics lab course"
-    description: "There is currently no course to sign up for"
+    description: "Go to the form and register to the next course"
     makerspace: "electronics"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSc7VeiTLD8iSj-q62ur87A6wbVXYVcqxbasM4FAgtVHD7IBTQ/viewform?usp=sf_link"
+    url_description: "Link to form"
+    
 events:
   -
     weight: 1
