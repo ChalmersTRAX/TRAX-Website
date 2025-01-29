@@ -72,10 +72,10 @@
     </item>
     <item>
       <title>Inspiration</title>
-      <link>https://trax.chs.chalmers.se/inspiration/</link>
+      <link>https://trax.chs.chalmers.se/about/inspiration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://trax.chs.chalmers.se/inspiration/</guid>
-      <description>&lt;div class=&#34;text-center&#34;&gt;&#xA;    &lt;h1 class=&#34;fw-bold text-body-emphasis&#34;&gt;!!! This page is under construction !!!&lt;/h1&gt;&#xA;    &lt;div class=&#34;col-lg-6 mx-auto&#34;&gt;&#xA;        &lt;img class=&#34;img-fluid&#34; src=&#34;https://trax.chs.chalmers.se/img/logo/logo_under_construction.png&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;</description>
+      <guid>https://trax.chs.chalmers.se/about/inspiration/</guid>
+      <description>&lt;div class=&#34;content&#34;&gt;&#xA;&lt;div class=&#34;gallery&#34;&gt;&#xA;    &#xA;&#xA;        &#xA;            &lt;div class=&#34;gallery-item&#34;&gt;&#xA;                &lt;img src=&#34;https://trax.chs.chalmers.se/img/inspoimages/20240424_105232.jpg&#34; alt=&#34;20240424_105232.jpg&#34;&gt;&#xA;            &lt;/div&gt;&#xA;        &#xA;    &#xA;&#xA;        &#xA;            &lt;div class=&#34;gallery-item&#34;&gt;&#xA;                &lt;img src=&#34;https://trax.chs.chalmers.se/img/inspoimages/20241001_164907.jpg&#34; alt=&#34;20241001_164907.jpg&#34;&gt;&#xA;            &lt;/div&gt;&#xA;        &#xA;    &#xA;&#xA;        &#xA;            &lt;div class=&#34;gallery-item&#34;&gt;&#xA;                &lt;img src=&#34;https://trax.chs.chalmers.se/img/inspoimages/20241005_221450.jpg&#34; alt=&#34;20241005_221450.jpg&#34;&gt;&#xA;            &lt;/div&gt;&#xA;        &#xA;    &#xA;&#xA;        &#xA;            &lt;div class=&#34;gallery-item&#34;&gt;&#xA;                &lt;img src=&#34;https://trax.chs.chalmers.se/img/inspoimages/20241006_212755.jpg&#34; alt=&#34;20241006_212755.jpg&#34;&gt;&#xA;            &lt;/div&gt;&#xA;        &#xA;    &#xA;&#xA;        &#xA;            &lt;div class=&#34;gallery-item&#34;&gt;&#xA;                &lt;img src=&#34;https://trax.chs.chalmers.se/img/inspoimages/20241010_204757.jpg&#34; alt=&#34;20241010_204757.jpg&#34;&gt;&#xA;            &lt;/div&gt;&#xA;        &#xA;    &#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;style&gt;&#xA;&#xA;    .content{&#xA;        margin: 20px;&#xA;    }&#xA;    .gallery {&#xA;        display: grid;&#xA;        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));&#xA;        gap: 10px;&#xA;    }&#xA;    .gallery-item img {&#xA;        width: 100%;&#xA;        height: auto;&#xA;        border-radius: 5px;&#xA;    }&#xA;&lt;/style&gt;</description>
     </item>
     <item>
       <title>Metal</title>
