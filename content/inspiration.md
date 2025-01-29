@@ -1,5 +1,0 @@
-+++
-title = "Inspiration"
-+++
-
-{{< under-construction >}}

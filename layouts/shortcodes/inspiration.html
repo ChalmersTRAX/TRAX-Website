@@ -1,1 +1,28 @@
-<p>Hello</p>
+<div class="content">
+<div class="gallery">
+    {{ range readDir "static/img/inspoimages" }}
+
+        {{ if .IsDir }}{{ else }}
+            <div class="gallery-item">
+                <img src="/img/inspoimages/{{ .Name }}" alt="{{ .Name }}">
+            </div>
+        {{ end }}
+    {{ end }}
+</div>
+</div>
+<style>
+
+    .content{
+        margin: 20px;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+    }
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+</style>
