@@ -60,12 +60,7 @@ pluralizelisttitles = false
     url        = "/about/docs"
     weight     = 2
 
-[[menu.main]]
-    name       = "Inspiration"
-    parent     = "menu.about"
-    identifier = "menu.inspiration"
-    url        = "/about/inspiration"
-    weight     = 3
+
 
 [[menu.main]]
     name       = "Become a member"

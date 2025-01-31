@@ -1,10 +1,15 @@
 <div class="content">
+    <h1 class="fw-bold text-body-emphasis">Overview</h1>
+    <p class="lead mb-4">This page will serve as a inperation page for our members. 
+        <br> Do you have a cool project that you want to feature on our website? 
+    <br> Please contact us at info@chalmers.se</p>
 <div class="gallery">
     {{ range readDir "static/img/inspoimages" }}
 
         {{ if .IsDir }}{{ else }}
             <div class="gallery-item">
                 <img src="/img/inspoimages/{{ .Name }}" alt="{{ .Name }}">
+                <p>Detta bygget är ...</p>
             </div>
         {{ end }}
     {{ end }}
@@ -14,15 +19,16 @@
 
     .content{
         margin: 20px;
+        text-align: center;
     }
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 10px;
+    .gallery {  
+        column-count: 3; /* Adjust columns based on screen size */
+        column-gap: 10px;
     }
     .gallery-item img {
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: block;
     }
 </style>
