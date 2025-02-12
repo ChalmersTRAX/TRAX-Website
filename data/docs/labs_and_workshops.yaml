@@ -24,7 +24,7 @@ list:
 
   -
     name: "Studio Material"
-    makerspace: "wood"
+    makerspace: "film_and_pod"
     language: "SWE"
     date: "2024-09-09"
     url: "/pdf/docs/Studio_material2024.pdf"

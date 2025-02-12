@@ -41,13 +41,37 @@ questions:
              The form will not be accessible when the links are not active. "
   -
     weight: 6
-    question: "I have taken some workshop courses before. Do I need to do them again this year?"
+    question: "I have taken some T-RAX workshop courses before. Do I need to do them again this year?"
     answer: "No, you do not need to renew your courses. "
 
   -
     weight: 7
     question: "I do not have a facebook or instagram account. Where do I find the course schedule?"
     answer: "You do not need an account to view our Instagram posts. You can also find them in our schedule under courses and events."
+  
+  -
+    weight: 8
+    question: "I am not a student or employee at Chalmers but would like to become a member, can I?"
+    answer: Anyone can join T-RAX with or without CID/connection to Chalmers. But members without a CID are a bit limited. 
+            Members without a CID can not access Canvas or our booking system Skedda or get card access. 
+            This means they can not book machines or read the rules the Fuse staff/Chalmers has for everyone 
+            using the Fuse facilities or enter the workshops themselves. 
+            <br><br>
+            Without an active connection to Chalmers they are not covered by Chalmers insurance the same way. 
+            Therefore a member without a CID may only use the workshops when let in/accompanied by the board. 
+            They can still attend our courses and workshops/events but can not use the machines independently like members with a CID. 
+
+  -
+    weight: 9
+    question: "I have taken some workshop courses with the Fuse staff, can I credit these to T-RAX?"
+    answer:   "This may be possible, but we need to do some checks first. 
+              Please email info@t-rax.se with when you took the courses (course code as well) and if you remember the name of the person who held the course. 
+              We will then get back to you if the course you took contained everything necessary to be able to use the workshops independently during T-RAX time.
+              <br><br>
+              If the course I want credited is metal or/and wood:<br>
+              You will then also need to come by during our opening hours and attend a workshop T-RAX rules walkthrough (15 minutes) and sign a contract. "
+
+
 
 
   
