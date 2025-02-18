@@ -67,11 +67,11 @@ courses:
 
   -
     weight: 9
-    name: "Sign up for next Electronics lab course"
-    short_name: "Electronics lab course"
+    name: "Sign up for next Advanced Electronics lab course"
+    short_name: "Advanced Electronics lab course"
     description: "Go to the form and register to the next course"
     makerspace: "electronics"
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSc7VeiTLD8iSj-q62ur87A6wbVXYVcqxbasM4FAgtVHD7IBTQ/viewform?usp=sf_link"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSeRzVTWsaIt4k20UVrYYk7xV2ogo1ZGbKZRqLRchcWHXngbhQ/viewform?usp=dialog"
     url_description: "Link to form"
     
 events:
