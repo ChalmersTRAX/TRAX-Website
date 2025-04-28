@@ -5,7 +5,8 @@ member:
     weight: 1
     role: "Chairman"
     name: "William Efraimsson"
-    image: "img/board/members/24_25/william_efraimsson.jpg"
+    image: "img/board/members/24_25/maxemilian_lundin.jpg"
+    secret_image: "img/board/members/24_25/maxemilian_fixed2.jpg"
   - 
     weight: 2
     role: "Cashier"
