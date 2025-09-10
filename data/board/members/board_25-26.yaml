@@ -1,0 +1,48 @@
+year: "2025/2026"
+roles_version: definition_v1
+member:
+  - 
+    weight: 1
+    role: "Chairman"
+    name: "Elsa Erkfeldt"
+    image: "img/board/members/25_26/elsa_erkfeldt.jpg"
+  - 
+    weight: 2
+    role: "Cashier"
+    name: "Isac Olander"
+    image: "img/board/members/25_26/isac_olander.jpg"
+  - 
+    weight: 3
+    role: "Inventory"
+    name: "Philip Agneskans Falk"
+    image: "img/board/members/25_26/philip_agneskans_falk.jpg"
+  - 
+    weight: 4
+    role: "Event"
+    name: "Emma Brantebäck"
+    image: "img/board/members/25_26/emma_branteback.jpg"
+  - 
+    weight: 5
+    role: "IT"
+    name: "Anton Krantz"
+    image: "img/board/members/25_26/anton_krantz.jpg"
+  - 
+    weight: 6
+    role: "PR"
+    name: "Andrea Mendoza"
+    image: "img/board/members/25_26/andrea_mendoza.jpg"
+  - 
+    weight: 7
+    role: "Education & Safety"
+    name: "Andreas Sandberg"
+    image: "img/board/members/25_26/andreas_sandberg.jpg"
+  - 
+    weight: 7
+    role: "Organiser"
+    name: "Christoffer Lennernäs"
+    image: "img/board/members/25_26/christoffer_lennernas.jpg"
+  - 
+    weight: 8
+    role: "Marketing"
+    name: "Rickard Lennernäs"
+    image: "img/board/members/25_26/rickard_lennernas.jpg"
