@@ -10,3 +10,5 @@
 
 # blender cache file
 *.blend1
+
+*.DS_Store
