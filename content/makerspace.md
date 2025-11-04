@@ -1,6 +1,6 @@
 +++
-title = "Workhops and labs"
-description = "Information about our makerspaces"
+title = "Workshops and labs"
+description = "Information about our workshops"
 +++
 
 {{< makerspace-cards >}}
