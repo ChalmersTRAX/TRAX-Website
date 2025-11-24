@@ -17,23 +17,14 @@ courses:
     url_description: "Link to form"
   -
     weight: 3
-    name: "Sign up for next Electric Handtool Wood Workshop course"
-    short_name: "Electric Handtool Wood workshop course"
-    description: "Go to the form and register to the next course"
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSeJC6mDAO-CoFC8ZN5nbABNmpGgV5fD_vuXquAk3Meq8GFmsQ/viewform?usp=sf_link"
-    url_description: "Link to form"
-    makerspace: "wood"
-
-  -
-    weight: 4
     name: "Sign up for next Wood Workshop course"
-    short_name: "Stationary Machine Wood workshop course"
+    short_name: "Wood workshop course"
     description: "Go to the form and register to the next course"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSfFS06jHZRS8V4Xb5yEyNW9j_-BoWixd2LiC8v25QHyEc8eug/viewform?usp=sf_link"
     url_description: "Link to form"
     makerspace: "wood"
   -
-    weight: 5
+    weight: 4
     name: "Sign up for next Metal Workshop course"
     short_name: "Metal workshop course"
     description: "Go to the form and register to the next course"
@@ -42,15 +33,14 @@ courses:
     makerspace: "metal"
 
   -
-    weight: 6
+    weight: 5
     name: "Surface treatment course"
     short_name: "Surface treatment course"
-    description: "We've switched from a waitlist to Monday drop-in courses."
+    description: "Drop-in courses on Mondays 19:00-20:00 and request"
     makerspace: "surface"
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSfkfjl85Q6kNGX8M46qxS5gQPqqJW2_NpoZtvXkani8LjmN2w/viewform?usp=sf_link"
-    url_description: "More info here"
+
   -
-    weight: 7
+    weight: 6
     name: "Sign up for the next Film and pod studio introductionary course"
     short_name: "Film and Pod studio introduction course"
     makerspace: "film_and_pod"
@@ -59,16 +49,16 @@ courses:
     url_description: "Link to waitlist"
 
   -
-    weight: 8
+    weight: 7
     name: "Virtual Reality introduction"
     short_name: "Virtual Reality introduction course"
     description: "There is currently no course to sign up for"
     makerspace: "vr"
 
   -
-    weight: 9
-    name: "Sign up for next Advanced Electronics course"
-    short_name: "Advanced Electronics course"
+    weight: 8
+    name: "Sign up for next Electronics course"
+    short_name: "Electronics course"
     description: "Go to the form and register to the next course"
     makerspace: "electronics"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSeRzVTWsaIt4k20UVrYYk7xV2ogo1ZGbKZRqLRchcWHXngbhQ/viewform?usp=dialog"
