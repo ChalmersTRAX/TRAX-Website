@@ -36,7 +36,7 @@ courses:
     weight: 5
     name: "Surface treatment course"
     short_name: "Surface treatment course"
-    description: "Drop-in courses on Mondays 19:00-20:00 and request"
+    description: "Drop-in courses, dates will be announced on Instagram beforehand."
     makerspace: "surface"
 
   -
@@ -44,7 +44,7 @@ courses:
     name: "Sign up for the next Film and pod studio introductionary course"
     short_name: "Film and Pod studio introduction course"
     makerspace: "film_and_pod"
-    description: "Go to the form and sign up for our waitlist"
+    description: "Go to the form and register for the next course"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSfIfAuLKEGMBhG-Yby0su49hswmOge3pe7770aR3b8xe3lySg/viewform?usp=sf_link"
     url_description: "Link to waitlist"
 
