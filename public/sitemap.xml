@@ -26,6 +26,8 @@
   </url><url>
     <loc>https://trax.chs.chalmers.se/about/inspiration/</loc>
   </url><url>
+    <loc>https://trax.chs.chalmers.se/makerspace/</loc>
+  </url><url>
     <loc>https://trax.chs.chalmers.se/makerspace/metal/</loc>
   </url><url>
     <loc>https://trax.chs.chalmers.se/makerspace/rapid/</loc>
@@ -45,7 +47,5 @@
     <loc>https://trax.chs.chalmers.se/makerspace/vr/</loc>
   </url><url>
     <loc>https://trax.chs.chalmers.se/makerspace/wood/</loc>
-  </url><url>
-    <loc>https://trax.chs.chalmers.se/makerspace/</loc>
   </url>
 </urlset>
