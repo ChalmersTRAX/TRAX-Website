@@ -46,7 +46,7 @@ courses:
     makerspace: "film_and_pod"
     description: "Go to the form and register for the next course"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSfIfAuLKEGMBhG-Yby0su49hswmOge3pe7770aR3b8xe3lySg/viewform?usp=sf_link"
-    url_description: "Link to waitlist"
+    url_description: "Link to form"
 
   -
     weight: 7
