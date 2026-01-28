@@ -38,13 +38,13 @@ pluralizelisttitles = false
     name       = "Courses & Events"
     identifier = "menu.courses"
     url        = "/courses/"
-    weight     = 3
+    weight     = 4
 
 [[menu.main]]
     name       = "About Us"
     identifier = "menu.about"
     url        = ""
-    weight     = 4
+    weight     = 5
 
 [[menu.main]]
     name       = "The Board"
@@ -67,13 +67,13 @@ pluralizelisttitles = false
     name       = "Become a member"
     identifier = "menu.membership"
     url        = "/membership/"
-    weight     = 5
+    weight     = 8
 
 [[menu.main]]
     name       = "FAQ"
     identifier = "menu.faq"
     url        = "/faq/"
-    weight     = 6
+    weight     = 9
 
 
 
