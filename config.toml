@@ -25,7 +25,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Makerspace"
     identifier = "menu.makerspace"
-    url        = "/workshops/"
+    url        = "/makerspace/about"
     weight     = 2
 
 #[[menu.main]]
