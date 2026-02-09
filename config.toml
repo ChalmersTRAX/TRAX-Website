@@ -22,12 +22,12 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 1
 
-# [[menu.main]]
-#     name       = "Makerspace"
-#     identifier = "menu.makerspace"
-#     url        = "/makerspace/"
-#     weight     = 2
-# 
+[[menu.main]]
+    name       = "Makerspace"
+    identifier = "menu.makerspace"
+    url        = "/makerspace/"
+    weight     = 2
+
 #[[menu.main]]
 #    name       = "FUSE"
 #    identifier = "menu.fuse"
