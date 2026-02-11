@@ -17,3 +17,12 @@ list:
     language: "ENG"
     date: "2023-09-27"
     url: "/pdf/material/3d_course_education_compressed_v2.pdf"
+
+  -
+    weight: 3
+    name: "Metal Workshop Study Material"
+    description: "Small metal course material for the metal course"
+    makerspace: "metal"
+    language: "ENG"
+    date: "2025-11-12"
+    url: "/pdf/material/t-rax_metal_workshop_study_material.pdf"
