@@ -6,14 +6,10 @@ Official website for T-RAX
 
 Download hugo docker image:
 ```
-docker pull klakegg/hugo
+docker pull ghcr.io/gohugoio/hugo:v0.155.3
 ```
 
 Run server:
 ```
-docker run --rm -it \
-  -v $(pwd):/src \
-  -p 1313:1313 \
-  klakegg/hugo \
-  server
+docker run --rm -it  -v $(pwd):/project -p 1313:1313 ghcr.io/gohugoio/hugo:v0.155.3 server --bind 0.0.0.0
 ```
