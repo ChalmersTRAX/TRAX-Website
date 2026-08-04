@@ -1,0 +1,49 @@
+year: "2026/2027"
+roles_version: definition_v1
+member:
+  - 
+    weight: 1
+    role: "Chairman"
+    name: "Emma Brantebäck"
+    image: "img/board/members/25_26/emma_branteback.jpg"
+  - 
+    weight: 2
+    role: "Cashier"
+    name: "Isabella Ranta"
+    image: "img/placeholder.png"
+  - 
+    weight: 3
+    role: "Inventory"
+    name: "Anton Ackfeldt"
+    image: "img/placeholder.png"
+  - 
+    weight: 4
+    role: "Event"
+    name: "Elsa Folkeson"
+    image: "img/placeholder.png"
+  - 
+    weight: 5
+    role: "IT"
+    name: "Emma Brantebäck"
+    image: "img/board/members/25_26/emma_branteback.jpg"
+    secret_image: "img/board/members/26_27/new_it.jpg"
+  - 
+    weight: 6
+    role: "PR"
+    name: "Philip Agneskans Falk"
+    image: "img/board/members/25_26/philip_agneskans_falk.jpg"
+  - 
+    weight: 7
+    role: "Education & Safety"
+    name: "Karl Sjölin"
+    image: "img/placeholder.png"
+  - 
+    weight: 7
+    role: "Organiser"
+    name: "Jakopo Mensch"
+    image: "img/placeholder.png"
+  - 
+    weight: 8
+    role: "Marketing"
+    name: "Elsa Folkeson"
+    image: "img/placeholder.png"
