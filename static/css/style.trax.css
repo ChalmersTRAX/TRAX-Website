@@ -364,4 +364,90 @@
     opacity: 0.2;
   }
   
-  
+.faq-container {
+    max-width: 800px;
+    margin: 4rem auto; /* Added top and bottom margin */
+    padding: 0 1.5rem; /* Prevents text from touching screen edges on mobile */
+}
+
+/* Individual FAQ block with a bottom divider */
+.faq-item {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1.25rem 0;
+}
+
+/* Hide the default triangle marker */
+.faq-question::marker,
+.faq-question::-webkit-details-marker {
+    display: none;
+    content: "";
+}
+
+/* Add a custom plus icon */
+.faq-question {
+    font-size: 1.5rem; /* Increased for larger text */
+    font-weight: 600;
+    color: #111827; 
+    cursor: pointer;
+    
+    /* These properties from the previous step keep your icon aligned */
+    position: relative;
+    padding-right: 2rem; 
+    display: block; 
+}
+
+.faq-question::after {
+    content: "+"; 
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #eec343; /* Matches your yellow header/focus ring */
+    font-size: 1.75rem;
+    font-weight: 400;
+    transition: transform 0.2s ease-out;
+}
+
+/* Rotate the icon when the details panel is open */
+.faq-item[open] .faq-question::after {
+    transform: translateY(-50%) rotate(45deg); /* Turns the '+' into an 'x' */
+}
+
+/* Remove the default harsh black outline */
+.faq-question:focus {
+    outline: none;
+}
+
+/* Add a custom, themed focus ring for accessibility */
+.faq-question:focus-visible {
+    outline: 2px solid #eec343; /* Matches your yellow header */
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
+/* Adds a nice color change when a user hovers over a question */
+.faq-question:hover {
+    color: #0d6efd; 
+}
+
+.faq-answer {
+    color: #4b5563; 
+    margin-top: 1rem;
+    line-height: 1.6;
+    font-size: 1rem;
+    
+    /* Add a simple fade-in animation */
+    opacity: 0;
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(-5px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}

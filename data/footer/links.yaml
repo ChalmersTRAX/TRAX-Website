@@ -25,3 +25,8 @@
   weight: 6
   desc: "Skedda"
   url: "https://chalmersfuse.skedda.com/"
+
+-
+  weight: 7
+  desc: "Get patches: Mera.se"
+  url: "https://www.mera.se"

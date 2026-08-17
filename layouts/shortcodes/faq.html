@@ -1,11 +1,12 @@
-{{ $q := .Site.Data.questions.data.questions }}
+{{ $questions := .Site.Data.questions.data.questions }}
 
-{{ range $q := sort $q "weight" }}
-<div>
-    <h1 class="col-md-12">{{ $q.question}}</h1>
+<div class="faq-container">
+    {{ range $q := sort $questions "weight" }}
+    <details class="faq-item">
+        <summary class="faq-question">{{ $q.question }}</summary>
+        <div class="faq-answer">
+            {{ $q.answer | safeHTML }}
+        </div>
+    </details>
+    {{ end }}
 </div>
-<div>
-    <p class="lead mb-4">{{$q.answer | safeHTML}}</p>
-
-</div>
-{{end}}
