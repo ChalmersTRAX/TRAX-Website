@@ -1,4 +1,5 @@
 {{ $sponsors := sort .Site.Data.sponsors.sponsors "weight" }}
+{{ $part_of := sort .Site.Data.sponsors.part_of "weight" }}
 
 <section class="bar background-image-fixed-2 no-mb text-center">
   <div class="text-center">
@@ -9,7 +10,9 @@
       {{ range $i, $sequence := $sponsors }}
       {{ $element := index $sponsors $i }}
 
-      <img src="{{ $element.thumbnail_url | relURL }}" alt="{{ $element.name | relURL }}" class="p-3 img-fluid" />
+      <a href="{{ $element.site_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ $element.thumbnail_url | relURL }}" alt="{{ $element.name | relURL }}" class="p-3 img-fluid" />
+      </a>
       {{ end }}
     </div>
     <br>
@@ -17,9 +20,13 @@
       <h1>A part of</h1>
     </div>
     <div class="p-3 justify-content-center">
-    <img src="img/sponsors/CHS-standard-black.png" class="p-3 img-fluid">
-    <img src="img/sponsors/unga_forskare.png" class="p-3 img-fluid">
-  </div>
+      {{ range $i, $sequence := $part_of }}
+      {{ $element := index $part_of $i }}
+
+      <a href="{{ $element.site_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ $element.thumbnail_url | relURL }}" alt="{{ $element.name | relURL }}" class="p-3 img-fluid" />
+      </a>
+      {{ end }}
+    </div>
   </div>
 </section>
-

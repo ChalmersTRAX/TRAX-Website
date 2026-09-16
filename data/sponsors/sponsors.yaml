@@ -3,13 +3,16 @@
   name: "Tranemo"
   long_name: "Tranemo Advanced Workwear"
   thumbnail_url: "img/sponsors/tranemo.png"
+  site_url: "https://www.tranemoworkwear.se/"
 -
   weight: 2
   name: "ESAB"
   long_name: "Elektriska Svetsnings-Aktiebolaget"
   thumbnail_url: "img/sponsors/esab.png"
+  site_url: "https://esab.com/se/eur_sv/"
 -
   weight: 3
   name: "Oderland"
   long_name: "Oderland Hosting Services"
   thumbnail_url: "img/sponsors/oderland.png"
+  site_url: "https://www.oderland.se/"

@@ -1,0 +1,12 @@
+-
+  weight: 1
+  name: "Chalmers"
+  long_name: "Chalmers Student Union"
+  thumbnail_url: "img/sponsors/CHS-standard-black.png"
+  site_url: "https://chalmersstudentkar.se/"
+-
+  weight: 2
+  name: "Unga Forskare"
+  long_name: "Unga Forskare"
+  thumbnail_url: "img/sponsors/unga_forskare.png"
+  site_url: "https://ungaforskare.se/"
