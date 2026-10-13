@@ -8,12 +8,12 @@ list:
     date: "2024-09-09"
     url: "/pdf/docs/Metal_Workshop_Rules2024.pdf"
 
-  -
-    name: "XP bridging material"
-    makerspace: "metal"
-    language: "ENG"
-    date: "2025-02-01"
-    url: "/pdf/docs/metal_material_XP_T-RAX_2025-02-01.pdf"
+  # -
+  #   name: "XP bridging material"
+  #   makerspace: "metal"
+  #   language: "ENG"
+  #   date: "2025-02-01"
+  #   url: "/pdf/docs/metal_material_XP_T-RAX_2025-02-01.pdf"
 
   -
     name: "Wood Workshop Rules"
