@@ -6,21 +6,25 @@ member:
     role: "Chairman"
     name: "Emma Brantebäck"
     image: "img/board/members/26_27/emma_branteback_new.jpg"
+    secret_image: "img/board/members/26_27/emma_spex.jpg"
   - 
     weight: 2
     role: "Cashier"
     name: "Isabella Ranta"
     image: "img/board/members/26_27/isabella_ranta.jpg"
+    secret_image: "img/board/members/26_27/isabella_spex.jpg"
   - 
     weight: 3
     role: "Inventory"
     name: "Anton Ackfeldt"
     image: "img/board/members/26_27/anton_ackfeldt.jpg"
+    secret_image: "img/board/members/26_27/anton_spex.jpg"
   - 
     weight: 4
     role: "Event"
     name: "Elsa Folkeson"
     image: "img/board/members/26_27/elsa_folkeson.jpg"
+    secret_image: "img/board/members/26_27/elsa_event_spex.jpg"
   - 
     weight: 5
     role: "IT"
@@ -32,18 +36,22 @@ member:
     role: "PR"
     name: "Philip Agneskans Falk"
     image: "img/board/members/26_27/philip_agneskans_falk_new.jpg"
+    secret_image: "img/board/members/26_27/philip_spex.jpg"
   - 
     weight: 7
     role: "Education & Safety"
     name: "Karl Sjölin"
     image: "img/board/members/26_27/kalle_sjolin.jpg"
+    secret_image: "img/board/members/26_27/kalle_spex.jpg"
   - 
     weight: 7
     role: "Organiser"
     name: "Jakopo Mensch"
     image: "img/board/members/26_27/jakopo_mensch.jpg"
+    secret_image: "img/board/members/26_27/jakopo_spex.jpg"
   - 
     weight: 8
     role: "Marketing"
     name: "Elsa Folkeson"
     image: "img/board/members/26_27/elsa_folkeson.jpg"
+    secret_image: "img/board/members/26_27/elsa_spons_spex.jpg"

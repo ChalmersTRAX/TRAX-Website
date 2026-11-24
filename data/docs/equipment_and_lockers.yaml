@@ -7,6 +7,11 @@ list:
     date: "2026-11-24"
     url: "/pdf/docs/Kontrakt Skåplån FINAL.pdf"
   -
+    name: "Låneregler Skåp"
+    language: "SWE"
+    date: "2026-11-24"
+    url: "/pdf/docs/Låneregler Skåp FINAL.pdf"
+  -
     name: "Lending Rules Lockers"
     language: "ENG"
     date: "2026-11-24"
@@ -16,6 +21,11 @@ list:
     language: "SWE"
     date: "2026-11-24"
     url: "/pdf/docs/Kontrakt Verktyg FINAL.pdf"
+  -
+    name: "Låneregler Verktyg"
+    language: "SWE"
+    date: "2026-11-24"
+    url: "/pdf/docs/Låneregler Verktyg FINAL.pdf"
   -
     name: "Lending Rules Tools"
     language: "ENG"
