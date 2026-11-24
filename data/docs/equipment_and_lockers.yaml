@@ -1,0 +1,23 @@
+weight: 2
+name: "Equipment and Lockers"
+list:
+  -
+    name: "Kontrakt Skåplån"
+    language: "SWE"
+    date: "2026-11-24"
+    url: "/pdf/docs/Kontrakt Skåplån FINAL.pdf"
+  -
+    name: "Lending Rules Lockers"
+    language: "ENG"
+    date: "2026-11-24"
+    url: "/pdf/docs/Lending Rules Lockers FINAL.pdf"
+  -
+    name: "Kontrakt Verktyg"
+    language: "SWE"
+    date: "2026-11-24"
+    url: "/pdf/docs/Kontrakt Verktyg FINAL.pdf"
+  -
+    name: "Lending Rules Tools"
+    language: "ENG"
+    date: "2026-11-24"
+    url: "/pdf/docs/Lending Rules Tools FINAL.pdf"
